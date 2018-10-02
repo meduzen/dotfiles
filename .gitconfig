@@ -1,0 +1,13 @@
+[user]
+    name = Mehdi M.
+    email = fake@email.tld
+    username = meduzen
+
+[url "https://github.com/"]
+    insteadOf = gh:
+
+[url "https://gist.github.com/"]
+    insteadOf = gist:
+
+[url "https://gitlab.com/"]
+    insteadOf = bb:
