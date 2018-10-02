@@ -1,4 +1,4 @@
-# Dotfiles
+# Dotfiles (in progress)
 
 ## Setup your Mac
 
