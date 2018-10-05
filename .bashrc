@@ -1,3 +1,14 @@
+# Random coolness
+function weather() {
+    city="$1"
+
+    if [ -z "$city" ]; then
+        city="Brussels"
+    fi
+
+    eval "curl http://wttr.in/${city}"
+}
+
 # Host
 alias hostfile='open -a "Sublime Text" /etc/hosts' # Host file.
 
