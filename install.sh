@@ -15,7 +15,7 @@ brew tap homebrew/bundle
 brew bundle
 
 # Make ZSH the default shell environment
-# chsh -s $(which zsh)
+chsh -s $(which zsh)
 
 # Install PHP extensions with PECL
 pecl install imagick
@@ -36,6 +36,11 @@ nvm install node # node is an alias for the latest version
 
 # Where the coolness happens
 mkdir $HOME/Code
+
+# Install Oh-My-Zsh and fancy bits
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+git clone https://github.com/zsh-users/zsh-syntax-highlighting $ZSH/plugins/zsh-syntax-highlighting
+npm install --global pure-prompt # Minimal ZSH prompt https://github.com/sindresorhus/pure
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 # rm -rf $HOME/.zshrc
