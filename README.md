@@ -10,9 +10,10 @@ Currently copied from [Dries Vints dotfiles repository](https://github.com/dries
 4. Copy your public and private SSH keys to `~/.ssh` and make sure their permissions are set to `600`.
 5. Clone this repo to `~/.dotfiles`.
 6. Append `/usr/local/bin/zsh` to the end of your `/etc/shells` file.
-7. Run `install.sh` to start the installation.
-8. Restore preferences by running `mackup restore`.
-9. Restart your computer to finalize the process.
+7. Enter your `./dotfiles` directory and run `chmod +x install.sh`.
+8. Run `./ install.sh` to start the installation.
+9. Restore preferences by running `mackup restore`.
+10. Restart your computer to finalize the process.
 
 ## Apps notes
 
