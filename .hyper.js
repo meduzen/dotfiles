@@ -4,6 +4,10 @@
 
 module.exports = {
   config: {
+    // Choose either "stable" for receiving highly polished,
+    // or "canary" for less polished but more frequent updates
+    updateChannel: 'stable',
+
     // default font size in pixels for all tabs
     fontSize: 13,
 
@@ -138,7 +142,7 @@ module.exports = {
     },
 
     // https://github.com/curz46/hyper-startup
-    commands: ['zsh'],
+    // commands: ['my-command'],
   },
 
   // a list of plugins to fetch and install from npm
@@ -149,7 +153,6 @@ module.exports = {
   //   `project#1.0.1`
   plugins: [
     "hypercwd",
-    "hyperlinks",
     "hyperterm-close-on-left",
     "hyperterm-paste",
     "hyperterm-summon",
@@ -157,8 +160,6 @@ module.exports = {
     "hyper-startup",
     "hyper-stylesheet",
     "hyper-vsplit-fix",
-    // "hyperterm-overlay", // try later
-    // "hyper-tab-icons", // try later
     // "hyperlayout", // try later
 
     // themes
