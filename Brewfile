@@ -24,6 +24,9 @@ brew 'node'
 brew 'ffmpeg'
 brew 'guetzli'
 
+# Various
+brew 'youtube-dl'
+
 # Apps
 cask 'aerial'
 cask 'dash'
