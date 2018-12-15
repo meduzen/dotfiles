@@ -15,7 +15,11 @@ Deeply inspired by [Dries Vints dotfiles repository](https://github.com/driesvin
 9. Run `./ install.sh` to start the installation.
 10. Restore preferences by running `mackup restore` (make sure your [storage provider](https://github.com/lra/mackup/blob/master/doc/README.md#storage) is connected).
 11. Restart your computer to finalize the process.
-13. Go to the App Store to retrieve the apps that aren’t in your Brewfile.
+
+## Post setup
+
+1. Go to the App Store to retrieve the apps that aren’t in your Brewfile.
+2. Run the Simulator, menu _Hardware_, _Device_, _Manage devices…_ and install the additional components.
 
 ## Apps notes
 
