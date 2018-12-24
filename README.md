@@ -31,6 +31,10 @@ Deeply inspired by [Dries Vints dotfiles repository](https://github.com/driesvin
 
 - As stated in [Moom FAQ](https://manytricks.com/osticket/kb/faq.php?id=53), `/Library/Preferences/com.manytricks.Moom.plist`: “Macs may have differing numbers of displays, different resolutions, etc. Saved layouts for one won't make sense for another.”
 
+### SIP
+
+- SIP must be downloaded from the [official website](http://sipapp.io).
+
 ### Sublime Text
 
 - Install [Package Control](https://packagecontrol.io/installation).
