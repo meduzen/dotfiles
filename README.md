@@ -25,6 +25,12 @@ Deeply inspired by [Dries Vints dotfiles repository](https://github.com/driesvin
 
 Run the Simulator, menu _Hardware_, _Device_, _Manage devices…_ and install the additional components.
 
+### MySQL
+
+The stable Sequel Pro version (currently 1.1.2) doesn’t support MySQL 8. So there are two options:
+- _(not tested)_ installing [Sequel Pro Nightly does](https://github.com/sequelpro/sequelpro/issues/2699#issuecomment-432431710);
+- _(tested and working)_ downgrading MySQL 8 to version 5.7 by following [@at0dd guide](https://medium.com/@at0dd/install-mysql-5-7-on-mac-os-mojave-cd07ec936034).
+
 ### Git
 
 - In `.gitconfig`, set name and email.
