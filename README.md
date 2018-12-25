@@ -19,9 +19,11 @@ Deeply inspired by [Dries Vints dotfiles repository](https://github.com/driesvin
 ## Post setup
 
 1. Go to the App Store to retrieve the apps that aren’t in your Brewfile.
-2. Run the Simulator, menu _Hardware_, _Device_, _Manage devices…_ and install the additional components.
+2. And now, some app by app notes…
 
-## Apps notes
+### Apple Simulator
+
+Run the Simulator, menu _Hardware_, _Device_, _Manage devices…_ and install the additional components.
 
 ### Git
 
@@ -33,8 +35,8 @@ Deeply inspired by [Dries Vints dotfiles repository](https://github.com/driesvin
 
 ### SIP
 
-- SIP must be downloaded from the [official website](http://sipapp.io).
+- SIP must be downloaded from the [official website](http://sipapp.io). The one available on Apple’s App Store [isn’t supported anymore](https://medium.com/@sipapp/moving-from-mac-app-store-b41c9e2f53e8).
 
 ### Sublime Text
 
-- Install [Package Control](https://packagecontrol.io/installation).
+- Install [Package Control](https://packagecontrol.io/installation). Then, [_to be completed_].
