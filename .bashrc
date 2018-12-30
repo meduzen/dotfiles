@@ -29,7 +29,6 @@ alias vssh="vagrant ssh"
 alias vu="vagrant up"
 
 # Softwares & tools
-alias finder='open -a "Finder"' # `finder .` opens current folder in Finder
 alias st='open -a "Sublime Text"' # `st .` opens current folder in Sublime Text
 
 # youtube-dl
