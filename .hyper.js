@@ -143,6 +143,99 @@ module.exports = {
 
     // https://github.com/curz46/hyper-startup
     // commands: ['my-command'],
+    // https://github.com/SwarShah/hyper-custom-touchbar
+    hyperCustomTouchbar: [
+      {
+        label: 'webpack',
+        options: [
+          { label: 'watch', command: 'npm run watch' },
+          { label: 'prod', command: 'npm run prod' },
+          { label: 'dev', command: 'npm run dev' },
+          { label: 'list', command: 'npm run' },
+        ]
+      },
+      {
+        label: 'npm',
+        options: [
+          { label: 'list', command: 'npm list --depth=0' },
+          { label: '🔭', command: 'npm audit' },
+          { label: '💉', command: 'npm audit fix' },
+          { label: 'update', command: 'npm update' },
+          { label: '☄️', command: 'npm install' }, // alternative emoji: 🌌
+          { label: '🗑', command: 'rm -rf node_modules' },
+          { label: 'help', command: 'npm' },
+        ]
+      },
+      {
+        label: 'artisan',
+        options: [
+          { label: 'clear', command: 'php artisan view:clear && php artisan config:clear && php artisan route:clear' },
+          { label: 'routes', command: 'php artisan route:list' },
+          { label: 'migrate', command: 'php artisan migrate' },
+          { label: 'fresh', command: 'php artisan migrate:fresh' },
+          { label: 'link', command: 'php artisan storage:link' },
+          { label: 'up', command: 'php artisan up' },
+          { label: 'down', command: 'php artisan down' },
+          { label: 'list', command: 'php artisan' },
+        ],
+      },
+      {
+        label: 'composer',
+        options: [
+          { label: 'dump-autoload', command: 'composer dump-autoload' },
+          { label: 'install', command: 'composer install' },
+          { label: 'require', command: 'composer require' },
+          { label: 'show', command: 'composer show -s -t' },
+          { label: 'outdated', command: 'composer outdated' },
+          { label: 'update', command: 'composer update' },
+          { label: 'list', command: 'composer' },
+        ]
+      },
+      {
+        label: 'valet',
+        options: [
+          { label: 'share', command: 'valet share' },
+          { label: '🔒', command: 'valet secure' },
+          { label: '🔓', command: 'valet unsecure' },
+          { label: 'list', command: 'valet' },
+        ]
+      },
+      {
+        label: 'cd',
+        options: [
+          { label: '..', command: 'cd ..' },
+          { label: 'Code', command: 'cd ~/Code' },
+        ]
+      },
+      {
+        label: 'vim',
+        options: [
+          { label: 'quit', command: ':q!', esc: true },
+          { label: 'save & quit', command: ':x', esc: true },
+        ]
+      },
+      {
+        label: 'git',
+        options: [
+          { label: 'diff',  command: 'git diff' },
+          { label: 'status',  command: 'git status' },
+          { label: 'log',  command: 'glog' }, // see my .bashrc
+          { label: 'add .',  command: 'git add .' },
+        ]
+      },
+      {
+        label: 'others', // see my .bashrc
+        options: [
+          { label: 'aliases',  command: 'aliases' },
+          { label: 'hosts',  command: 'hostfile' },
+          { label: 'ssh',  command: 'sshssh' },
+          { label: 'dotfiles',  command: 'cd ~/dotfiles' },
+          { label: 'show',  command: 'showhiddenfiles' },
+          { label: 'hide',  command: 'hidehiddenfiles' },
+          { label: '🌤', command: 'weather' },
+        ]
+      },
+    ],
   },
 
   // a list of plugins to fetch and install from npm
@@ -156,6 +249,7 @@ module.exports = {
     "hyperterm-close-on-left",
     "hyperterm-paste",
     "hyperterm-summon",
+    "hyper-custom-touchbar",
     "hyper-pane",
     "hyper-startup",
     "hyper-stylesheet",
