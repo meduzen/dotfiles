@@ -32,8 +32,8 @@ alias vu="vagrant up"
 alias st='open -a "Sublime Text"' # `st .` opens current folder in Sublime Text
 
 # youtube-dl
-alias yt='cd ~/Downloads && youtube-dl --all-subs --write-auto-sub'
-alias ytmp3='cd ~/Downloads && youtube-dl -f bestaudio --extract-audio --audio-format mp3'
+alias yt='cd ~/Downloads/yt && youtube-dl --all-subs --write-auto-sub'
+alias ytmp3='cd ~/Downloads/yt && youtube-dl -f bestaudio --extract-audio --audio-format mp3'
 
 # Open this file with Sublime Text
 alias aliases='open -a "Sublime Text" ~/.bashrc'
