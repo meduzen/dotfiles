@@ -9,6 +9,16 @@ function weather() {
     eval "curl http://wttr.in/${city}"
 }
 
+# Hidden files
+function hidehiddenfiles() {
+    defaults write com.apple.finder AppleShowAllFiles -bool NO
+    killall Finder
+}
+function showhiddenfiles() {
+    defaults write com.apple.finder AppleShowAllFiles -bool YES
+    killall Finder
+}
+
 # Host
 alias hostfile='open -a "Sublime Text" /etc/hosts' # Host file.
 
