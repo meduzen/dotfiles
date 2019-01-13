@@ -38,7 +38,12 @@ alias vs="vagrant status"
 alias vssh="vagrant ssh"
 alias vu="vagrant up"
 
-# Softwares & tools
+# Webpack
+alias ww='npm run watch'
+alias wd='npm run dev'
+alias wp='npm run prod'
+
+# Text editors
 alias st='open -a "Sublime Text"' # `st .` opens current folder in Sublime Text
 
 # youtube-dl
