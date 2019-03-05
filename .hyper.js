@@ -146,12 +146,13 @@ module.exports = {
     // https://github.com/SwarShah/hyper-custom-touchbar
     hyperCustomTouchbar: [
       {
-        label: 'webpack',
+        label: 'front',
         options: [
           { label: 'watch', command: 'npm run watch' },
           { label: 'prod', command: 'npm run prod' },
           { label: 'dev', command: 'npm run dev' },
-          { label: 'list', command: 'npm run' },
+          { label: 'browserslist', command: 'npx browserslist' },
+          { label: '?', command: 'npm run' },
         ]
       },
       {
@@ -163,12 +164,14 @@ module.exports = {
           { label: 'update', command: 'npm update' },
           { label: '☄️', command: 'npm install' }, // alternative emoji: 🌌
           { label: '🗑', command: 'rm -rf node_modules' },
+          { label: '🗑🧹☄️', command: 'rm -rf node_modules && rm package-lock.json && npm cache clear --force && npm install' },
           { label: 'help', command: 'npm' },
         ]
       },
       {
         label: 'artisan',
         options: [
+          { label: 'artisan', command: 'php artisan ', prompt: true },
           { label: 'clear', command: 'php artisan view:clear && php artisan config:clear && php artisan route:clear' },
           { label: 'routes', command: 'php artisan route:list' },
           { label: 'migrate', command: 'php artisan migrate' },
@@ -184,7 +187,7 @@ module.exports = {
         options: [
           { label: 'dump-autoload', command: 'composer dump-autoload' },
           { label: 'install', command: 'composer install' },
-          { label: 'require', command: 'composer require' },
+          { label: 'require', command: 'composer require', prompt: true },
           { label: 'show', command: 'composer show -s -t' },
           { label: 'outdated', command: 'composer outdated' },
           { label: 'update', command: 'composer update' },
@@ -208,23 +211,17 @@ module.exports = {
         ]
       },
       {
-        label: 'vim',
-        options: [
-          { label: 'quit', command: ':q!', esc: true },
-          { label: 'save & quit', command: ':x', esc: true },
-        ]
-      },
-      {
         label: 'git',
         options: [
           { label: 'diff',  command: 'git diff' },
           { label: 'status',  command: 'git status' },
           { label: 'log',  command: 'glog' }, // see my .bashrc
           { label: 'add .',  command: 'git add .' },
+          { label: 'clone ',  command: 'git clone ', prompt: true },
         ]
       },
       {
-        label: 'others', // see my .bashrc
+        label: '🧞‍♂️', // see my .bashrc
         options: [
           { label: 'aliases',  command: 'aliases' },
           { label: 'hosts',  command: 'hostfile' },
@@ -233,6 +230,13 @@ module.exports = {
           { label: 'show',  command: 'showhiddenfiles' },
           { label: 'hide',  command: 'hidehiddenfiles' },
           { label: '🌤', command: 'weather' },
+        ]
+      },
+      {
+        label: 'vim',
+        options: [
+          { label: 'quit', command: ':q!', esc: true },
+          { label: 'save & quit', command: ':x', esc: true },
         ]
       },
     ],
