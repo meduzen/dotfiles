@@ -161,10 +161,12 @@ module.exports = {
           { label: 'list', command: 'npm list --depth=0' },
           { label: '🔭', command: 'npm audit' },
           { label: '💉', command: 'npm audit fix' },
+          { label: '🚛📦', command: 'npm install ', prompt: true }, // alternative emoji: 🌌
+          { label: '🕸', command: 'npm outdated' },
           { label: 'update', command: 'npm update' },
           { label: '☄️', command: 'npm install' }, // alternative emoji: 🌌
           { label: '🗑', command: 'rm -rf node_modules' },
-          { label: '🗑🧹☄️', command: 'rm -rf node_modules && rm package-lock.json && npm cache clear --force && npm install' },
+          { label: '🗑🧹☄️', command: 'rm -rf node_modules && rm package-lock.json && npm cache clean --force && npm install' },
           { label: 'help', command: 'npm' },
         ]
       },
@@ -187,7 +189,7 @@ module.exports = {
         options: [
           { label: 'dump-autoload', command: 'composer dump-autoload' },
           { label: 'install', command: 'composer install' },
-          { label: 'require', command: 'composer require', prompt: true },
+          { label: 'require', command: 'composer require ', prompt: true },
           { label: 'show', command: 'composer show -s -t' },
           { label: 'outdated', command: 'composer outdated' },
           { label: 'update', command: 'composer update' },
@@ -208,6 +210,8 @@ module.exports = {
         options: [
           { label: '..', command: 'cd ..' },
           { label: 'Code', command: 'cd ~/Code' },
+          { label: '🖕 IE', command: 'cd ~/Code/canistop' },
+          { label: '--', command: 'cd ~/Code/dash-dash-media.scss' },
         ]
       },
       {
