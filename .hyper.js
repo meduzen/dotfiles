@@ -208,7 +208,7 @@ module.exports = {
         options: [
           { label: '..', command: 'cd ..' },
           { label: 'Code', command: 'cd ~/Code' },
-          { label: '🖕 IE', command: 'cd ~/Code/canistop' },
+          { label: '🖕 IE', command: 'cd ~/Code/canistop', backgroundColor: '#18bcef' },
           { label: '--', command: 'cd ~/Code/dash-dash-media.scss' },
         ]
       },
