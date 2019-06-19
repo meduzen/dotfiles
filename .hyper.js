@@ -141,8 +141,6 @@ module.exports = {
       focusOnMouseHover: false
     },
 
-    // https://github.com/curz46/hyper-startup
-    // commands: ['my-command'],
     // https://github.com/SwarShah/hyper-custom-touchbar
     hyperCustomTouchbar: [
       {
@@ -259,7 +257,6 @@ module.exports = {
     "hyperterm-summon",
     "hyper-custom-touchbar",
     "hyper-pane",
-    "hyper-startup",
     "hyper-stylesheet",
     "hyper-vsplit-fix",
     // "hyperlayout", // try later
