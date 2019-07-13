@@ -176,10 +176,10 @@ module.exports = {
           { label: 'routes', command: 'php artisan route:list' },
           { label: 'migrate', command: 'php artisan migrate' },
           { label: 'fresh', command: 'php artisan migrate:fresh' },
+          { label: 'make', command: 'php artisan make:', prompt: true },
           { label: 'link', command: 'php artisan storage:link' },
           { label: 'up', command: 'php artisan up' },
           { label: 'down', command: 'php artisan down' },
-          { label: 'list', command: 'php artisan' },
         ],
       },
       {
@@ -232,6 +232,8 @@ module.exports = {
           { label: 'show',  command: 'showhiddenfiles' },
           { label: 'hide',  command: 'hidehiddenfiles' },
           { label: '🌤', command: 'weather' },
+          { label: '🎬', command: 'yt ', prompt: true },
+          { label: '🔈', command: 'ytmp3 ', prompt: true },
         ]
       },
       {
