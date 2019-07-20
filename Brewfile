@@ -23,6 +23,7 @@ brew 'node'
 # Image optimization
 brew 'ffmpeg'
 brew 'guetzli'
+brew 'webp'
 
 # Various
 brew 'youtube-dl'
