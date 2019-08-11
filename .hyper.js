@@ -141,6 +141,12 @@ module.exports = {
       focusOnMouseHover: false
     },
 
+    // https://github.com/weirdpattern/hyper-ayu-light
+    // https://github.com/weirdpattern/hyper-ayu-mirage
+    ayu: {
+      noBorder: true,
+    },
+
     // https://github.com/SwarShah/hyper-custom-touchbar
     hyperCustomTouchbar: [
       {
@@ -265,6 +271,9 @@ module.exports = {
 
     // themes
     "hyper-snazzy",
-    // "hyperterm-cobalt2-theme",
+    // "hyper-ayu",
+    // "hyper-ayu-mirage",
+    // "hyper-ayu-light",
+    // "hyper-electron-highlighter",
   ]
 };
