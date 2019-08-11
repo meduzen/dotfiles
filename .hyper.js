@@ -141,6 +141,9 @@ module.exports = {
       focusOnMouseHover: false
     },
 
+    // https://github.com/lucleray/hyper-opacity#readme
+    opacity: .93,
+
     // https://github.com/weirdpattern/hyper-ayu-light
     // https://github.com/weirdpattern/hyper-ayu-mirage
     ayu: {
@@ -260,10 +263,13 @@ module.exports = {
   //   `project#1.0.1`
   plugins: [
     "hypercwd",
+    "hyperminimal",
     "hyperterm-close-on-left",
     "hyperterm-paste",
     "hyperterm-summon",
+    "hyper-always-on-top",
     "hyper-custom-touchbar",
+    "hyper-opacity",
     "hyper-pane",
     "hyper-stylesheet",
     "hyper-vsplit-fix",
