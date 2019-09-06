@@ -229,6 +229,7 @@ module.exports = {
           { label: 'log',  command: 'glog' }, // see my .bashrc
           { label: 'add .',  command: 'git add .' },
           { label: 'clone ',  command: 'git clone ', prompt: true },
+          { label: 'GUI',  command: 'gitup' },
         ]
       },
       {
