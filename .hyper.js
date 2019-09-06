@@ -141,14 +141,18 @@ module.exports = {
       focusOnMouseHover: false
     },
 
-    // https://github.com/lucleray/hyper-opacity#readme
-    opacity: .93,
+    // https://github.com/chabou/hyper-always-on-top
+    alwaysOnTop: {
+      default: false,
+    },
+
+    opacity: .98,
 
     // https://github.com/weirdpattern/hyper-ayu-light
     // https://github.com/weirdpattern/hyper-ayu-mirage
-    ayu: {
-      noBorder: true,
-    },
+    // ayu: {
+    //   noBorder: true,
+    // },
 
     // https://github.com/SwarShah/hyper-custom-touchbar
     hyperCustomTouchbar: [
