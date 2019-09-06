@@ -236,7 +236,7 @@ module.exports = {
         options: [
           { label: 'aliases',  command: 'aliases' },
           { label: 'hosts',  command: 'hostfile' },
-          { label: 'ssh',  command: 'sshssh' },
+          { label: 'ssh',  command: 'sshssh && st .' },
           { label: 'dotfiles',  command: 'cd ~/dotfiles' },
           { label: 'show',  command: 'showhiddenfiles' },
           { label: 'hide',  command: 'hidehiddenfiles' },
