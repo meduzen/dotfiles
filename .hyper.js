@@ -33,7 +33,7 @@ module.exports = {
     borderColor: '#333',
 
     // custom css to embed in the main window
-    css: '',
+    css: '.term_fit:not(.term_term):not(.term_wrapper):not(.term_active) { opacity: .7 !important } .splitpane_pane > .term_fit { transition: opacity .15s linear; }',
 
     // custom css to embed in the terminal window
     termCSS: '',
