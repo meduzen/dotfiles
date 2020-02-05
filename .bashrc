@@ -46,6 +46,11 @@ alias wp='npm run prod'
 # Text editors
 alias st='open -a "Sublime Text"' # `st .` opens current folder in Sublime Text
 
+# Doc
+function mdn() {
+    open -a "Brave Browser" "https://mdn.io/$1"
+}
+
 # youtube-dl
 alias yt='cd ~/Downloads/yt && youtube-dl --all-subs --write-auto-sub'
 alias ytmp3='cd ~/Downloads/yt && youtube-dl -f bestaudio --extract-audio --audio-format mp3'
