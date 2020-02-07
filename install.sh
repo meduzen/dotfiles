@@ -31,7 +31,7 @@ mv composer.phar /usr/local/bin/composer
 # $HOME/.composer/vendor/bin/valet install
 
 # Install Node Version Manager
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
 nvm install node # node is an alias for the latest version
 
 # Where the coolness happens
