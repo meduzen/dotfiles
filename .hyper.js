@@ -33,7 +33,7 @@ module.exports = {
     borderColor: '#333',
 
     // custom css to embed in the main window
-    css: '.term_fit:not(.term_term):not(.term_wrapper):not(.term_active) { opacity: .7 !important } .splitpane_pane > .term_fit { transition: opacity .15s linear; }',
+    css: '',
 
     // custom css to embed in the terminal window
     termCSS: '',
@@ -143,16 +143,16 @@ module.exports = {
 
     // https://github.com/chabou/hyper-always-on-top
     alwaysOnTop: {
-      default: false,
+      default: true,
     },
 
     opacity: .98,
 
     // https://github.com/weirdpattern/hyper-ayu-light
     // https://github.com/weirdpattern/hyper-ayu-mirage
-    // ayu: {
-    //   noBorder: true,
-    // },
+    ayu: {
+      noBorder: true,
+    },
 
     // https://github.com/SwarShah/hyper-custom-touchbar
     hyperCustomTouchbar: [
@@ -199,8 +199,8 @@ module.exports = {
         label: 'composer',
         options: [
           { label: 'dump-autoload', command: 'composer dump-autoload' },
-          { label: 'install', command: 'composer install' },
-          { label: 'require', command: 'composer require ', prompt: true },
+          { label: '☄️', command: 'composer install' },
+          { label: '🚛📦', command: 'composer require ', prompt: true },
           { label: 'show', command: 'composer show -s -t' },
           { label: 'outdated', command: 'composer outdated' },
           { label: 'update', command: 'composer update' },
@@ -281,11 +281,14 @@ module.exports = {
     "hyper-vsplit-fix",
     // "hyperlayout", // try later
 
-    // themes
+    /* dark themes */
     "hyper-snazzy",
     // "hyper-ayu",
     // "hyper-ayu-mirage",
-    // "hyper-ayu-light",
     // "hyper-electron-highlighter",
+
+    /* light themes */
+    // "hyper-ayu-light",
+    // "hyper-hypest",
   ]
 };
