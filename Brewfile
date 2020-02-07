@@ -12,6 +12,7 @@ brew 'mas'
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'trash'
 brew 'tree'
+brew 'fzf'
 brew 'zsh'
 brew 'zsh-completions'
 
@@ -26,6 +27,7 @@ brew 'guetzli'
 brew 'webp'
 
 # Various
+brew 'tldr'
 brew 'youtube-dl'
 
 # Apps

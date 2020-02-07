@@ -9,6 +9,8 @@ export ZSH=~/.oh-my-zsh
 plugins=(
     git
     zsh-syntax-highlighting
+    fzf # required by navi
+    navi
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -41,6 +43,9 @@ prompt pure
 
 # Load bashrc
 . ~/.bashrc
+
+# Navi
+export PATH=$PATH:"$ZSH_CUSTOM/plugins/navi"
 
 # Composer
 export PATH="$HOME/.composer/vendor/bin:$PATH"
