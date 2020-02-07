@@ -6,7 +6,10 @@ export ZSH=~/.oh-my-zsh
 # Custom plugins: `~/.oh-my-zsh/custom/plugins/`
 # Example: plugins=(rails git textmate ruby lighthouse)
 # Too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting)
+plugins=(
+    git
+    zsh-syntax-highlighting
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -17,16 +20,14 @@ export LANG=en_US.UTF-8
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
-unsetopt beep # no bell on error
 bindkey -e
 
 # Added by `compinstall`
-zstyle :compinstall filename '/Users/m/.zshrc'
+zstyle :compinstall filename '~/.zshrc'
 autoload -Uz compinit
 compinit
 
-# No beep on error
-unsetopt beep
+unsetopt beep # no bell on error
 
 # Prompt pure (https://github.com/sindresorhus/pure)
 autoload -U promptinit; promptinit
@@ -40,4 +41,9 @@ prompt pure
 
 # Load bashrc
 . ~/.bashrc
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Composer
+export PATH="$HOME/.composer/vendor/bin:$PATH"
+
+export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
