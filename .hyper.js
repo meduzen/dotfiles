@@ -202,7 +202,7 @@ module.exports = {
           { label: '☄️', command: 'composer install' },
           { label: '🚛📦', command: 'composer require ', prompt: true },
           { label: 'show', command: 'composer show -s -t' },
-          { label: 'outdated', command: 'composer outdated' },
+          { label: '🕸', command: 'composer outdated -D' },
           { label: 'update', command: 'composer update' },
           { label: 'list', command: 'composer' },
         ]
