@@ -1,0 +1,35 @@
+## /etc/hosts
+
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1   localhost
+255.255.255.255 broadcasthost
+::1             localhost
+
+## Shitty trackers
+
+127.0.0.1       disqus.com
+127.0.0.1       link.services.disqus.com
+127.0.0.1       a.disquscdn.com
+127.0.0.1       referrer.disquscdn.com
+127.0.0.1       serviceworkers.disquscdn.com
+127.0.0.1       c.disquscdn.com
+
+127.0.0.1       trustarc.com
+127.0.0.1       www.trustarc.com
+127.0.0.1       consent.trustarc.com
+127.0.0.1       truste.com
+127.0.0.1       consent.truste.com
+
+127.0.0.1       facebook.com
+127.0.0.1       connect.facebook.net
+127.0.0.1       connect.facebook.com
+127.0.0.1       staticxx.facebook.com
+127.0.0.1       www.facebook.com
+127.0.0.1       static.xx.fbcdn.net
+127.0.0.1       scontent.xx.fbcdn.net
+127.0.0.1       scontent-sjc2-1.xx.fbcdn.net
