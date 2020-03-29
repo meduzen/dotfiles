@@ -28,7 +28,7 @@ Run the Simulator, menu _Hardware_, _Device_, _Manage devices…_ and install th
 ### MySQL
 
 The stable Sequel Pro version (currently 1.1.2) doesn’t support MySQL 8. So there are two options:
-- _(not tested)_ installing [Sequel Pro Nightly does](https://github.com/sequelpro/sequelpro/issues/2699#issuecomment-432431710);
+- _(tested and working)_ installing [Sequel Pro build 97c1b85783](https://sequelpro.com/builds/Sequel-Pro-Build-97c1b85783.zip) ([all test builds](https://sequelpro.com/test-builds));
 - _(tested and working)_ downgrading MySQL 8 to version 5.7 by following [@at0dd guide](https://medium.com/@at0dd/install-mysql-5-7-on-mac-os-mojave-cd07ec936034).
 
 ### Git
