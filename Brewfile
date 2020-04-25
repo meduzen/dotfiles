@@ -7,6 +7,7 @@ tap 'homebrew/bundle'
 brew 'coreutils' # macOS ones are outdated
 brew 'git'
 brew 'grep'
+brew 'gnupg'
 brew 'mackup'
 brew 'mas'
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
@@ -60,6 +61,7 @@ cask 'openinterminal'
 cask 'opera'
 cask 'opera-neon'
 cask 'oryoki'
+cask 'postbox'
 cask 'rightfont'
 cask 'sequel-pro'
 cask 'slack'
@@ -79,5 +81,4 @@ cask 'zeplin'
 
 # App Store apps
 mas 'Giphy Capture', id: 668208984
-mas 'Spark', id: 1176895641
 mas 'The Unarchiver', id: 425424353
