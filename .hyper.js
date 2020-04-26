@@ -174,7 +174,7 @@ module.exports = {
           { label: '💉', command: 'npm audit fix' },
           { label: '🚛📦', command: 'npm install ', prompt: true }, // alternative emoji: 🌌
           { label: '🕸', command: 'npm outdated' },
-          { label: 'update', command: 'npm update' },
+          { label: 'update', command: 'npm update', prompt: true },
           { label: '☄️', command: 'npm install' }, // alternative emoji: 🌌
           { label: '🗑', command: 'rm -rf node_modules' },
           { label: '🗑🧹☄️', command: 'rm -rf node_modules && rm package-lock.json && npm cache clean --force && npm install' },
