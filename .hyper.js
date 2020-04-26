@@ -154,6 +154,9 @@ module.exports = {
       noBorder: true,
     },
 
+    // https://github.com/kazushisan/hyperterm-horizon#configure
+    horizonTheme: 'bright', // 'bright', 'normal'
+
     // https://github.com/SwarShah/hyper-custom-touchbar
     hyperCustomTouchbar: [
       {
@@ -290,5 +293,6 @@ module.exports = {
     /* light themes */
     // "hyper-ayu-light",
     // "hyper-hypest",
+    // "hyperterm-horizon",
   ]
 };
