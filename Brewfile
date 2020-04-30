@@ -14,6 +14,7 @@ brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'trash'
 brew 'tree'
 brew 'fzf'
+brew 'xsv'
 brew 'zsh'
 brew 'zsh-completions'
 
