@@ -175,10 +175,10 @@ module.exports = {
           { label: 'list', command: 'npm list --depth=0' },
           { label: '🔭', command: 'npm audit' },
           { label: '💉', command: 'npm audit fix' },
-          { label: '🚛📦', command: 'npm install ', prompt: true }, // alternative emoji: 🌌
           { label: '🕸', command: 'npm outdated' },
-          { label: 'update', command: 'npm update', prompt: true },
+          { label: '🚛📦', command: 'npm install ', prompt: true },
           { label: '☄️', command: 'npm install' }, // alternative emoji: 🌌
+          { label: 'update', command: 'npm update', prompt: true },
           { label: '🗑', command: 'rm -rf node_modules' },
           { label: '🗑🧹☄️', command: 'rm -rf node_modules && rm package-lock.json && npm cache clean --force && npm install' },
           { label: 'help', command: 'npm' },
@@ -189,7 +189,7 @@ module.exports = {
         options: [
           { label: 'artisan', command: 'php artisan ', prompt: true },
           { label: 'clear', command: 'php artisan view:clear && php artisan config:clear && php artisan route:clear' },
-          { label: 'routes', command: 'php artisan route:list' },
+          { label: 'routes', command: 'php artisan route:list -c' },
           { label: 'migrate', command: 'php artisan migrate' },
           { label: 'fresh', command: 'php artisan migrate:fresh' },
           { label: 'make', command: 'php artisan make:', prompt: true },
@@ -208,6 +208,7 @@ module.exports = {
           { label: '🕸', command: 'composer outdated -D' },
           { label: 'update', command: 'composer update' },
           { label: 'list', command: 'composer' },
+          { label: 'diff', command: 'composer diff' },
         ]
       },
       {
@@ -286,8 +287,10 @@ module.exports = {
 
     /* dark themes */
     "hyper-snazzy",
+    // "hyper-sweet",
     // "hyper-ayu",
     // "hyper-ayu-mirage",
+    // "hyper-rose-pine",
     // "hyper-electron-highlighter",
 
     /* light themes */
