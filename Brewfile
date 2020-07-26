@@ -22,6 +22,7 @@ brew 'zsh-completions'
 brew 'php'
 brew 'mysql'
 brew 'node'
+brew 'redis'
 
 # Image optimization
 brew 'ffmpeg'
