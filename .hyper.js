@@ -188,8 +188,8 @@ module.exports = {
         label: 'artisan',
         options: [
           { label: 'artisan', command: 'php artisan ', prompt: true },
-          { label: 'routes', command: 'php artisan route:list -c' },
           { label: 'clear', command: 'php artisan optimize:clear && php artisan horizon:purge && php artisan queue:flush && php artisan telescope:clear && redis-cli flushdb' },
+          { label: 'routes', command: "php artisan route:list --columns=method,name,uri,action | grep -Ev 'horizon|nova|telescope'" },
           { label: 'migrate', command: 'php artisan migrate' },
           { label: 'fresh', command: 'php artisan migrate:fresh' },
           { label: 'make', command: 'php artisan make:', prompt: true },
