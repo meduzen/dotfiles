@@ -33,3 +33,8 @@
 127.0.0.1       static.xx.fbcdn.net
 127.0.0.1       scontent.xx.fbcdn.net
 127.0.0.1       scontent-sjc2-1.xx.fbcdn.net
+
+127.0.0.1       googleadservices.com
+127.0.0.1       www.googleadservices.com
+127.0.0.1       ad.doubleclick.net
+127.0.0.1       pagead.l.doubleclick.net
