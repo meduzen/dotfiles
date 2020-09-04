@@ -22,6 +22,11 @@ function showhiddenfiles() {
 # Host
 alias hostfile='open -a "Sublime Text" /etc/hosts' # Host file.
 
+# SSL certificate expiration
+function sslexpire() {
+    echo | openssl s_client -servername $1 -connect $1:443 2>/dev/null | openssl x509 -noout -dates
+}
+
 # Git
 alias glog="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
 
