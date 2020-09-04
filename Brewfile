@@ -34,6 +34,8 @@ brew 'tldr'
 brew 'youtube-dl'
 
 # Apps
+cask 'boop'
+cask 'ballast'
 cask 'contraste'
 cask 'dash'
 cask 'day-o'
