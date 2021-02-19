@@ -1,4 +1,5 @@
 // Future versions of Hyper may add additional config options,
+
 // which will not automatically be merged into this file.
 // See https://hyper.is#cfg for all currently supported options.
 
@@ -107,9 +108,9 @@ module.exports = {
       initialWorkingDirectory: '~/Code'
     },
 
-    //https://github.com/Soutar/hyperterm-summon
+    // https://github.com/Soutar/hyperterm-summon
     summon: {
-      hideDock: false,
+      hideDock: true,
       hideOnBlur: false,
       hotkey: 'Alt+Super+O'
     },
@@ -146,7 +147,7 @@ module.exports = {
       default: true,
     },
 
-    opacity: .98,
+    opacity: .99,
 
     // https://github.com/weirdpattern/hyper-ayu-light
     // https://github.com/weirdpattern/hyper-ayu-mirage
@@ -232,10 +233,13 @@ module.exports = {
       {
         label: 'git',
         options: [
+          { label: 'fetch',  command: 'git fetch --all' },
           { label: 'diff',  command: 'git diff' },
           { label: 'status',  command: 'git status' },
           { label: 'log',  command: 'glog' }, // see my .bashrc
           { label: 'add .',  command: 'git add .' },
+          { label: 'pull',  command: 'git pull' },
+          { label: 'push',  command: 'git push' },
           { label: 'clone ',  command: 'git clone ', prompt: true },
           { label: 'GUI',  command: 'gitup' },
         ]
