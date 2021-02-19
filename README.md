@@ -18,7 +18,7 @@ Deeply inspired by [Dries Vints dotfiles repository](https://github.com/driesvin
 
 ## Post setup
 
-1. Go to the App Store to retrieve the apps that aren’t in your Brewfile.
+1. Go to the App Store to retrieve the apps that are not in your Brewfile.
 2. And now, some app by app notes…
 
 ### Apple Simulator
@@ -38,10 +38,6 @@ The stable Sequel Pro version (currently 1.1.2) doesn’t support MySQL 8. So th
 ### Mooom
 
 - As stated in [Moom FAQ](https://manytricks.com/osticket/kb/faq.php?id=53), `/Library/Preferences/com.manytricks.Moom.plist`: “Macs may have differing numbers of displays, different resolutions, etc. Saved layouts for one won't make sense for another.”
-
-### SIP
-
-- SIP must be downloaded from the [official website](http://sipapp.io). The one available on Apple’s App Store [isn’t supported anymore](https://medium.com/@sipapp/moving-from-mac-app-store-b41c9e2f53e8).
 
 ### Sublime Text
 
