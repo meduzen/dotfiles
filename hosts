@@ -10,7 +10,7 @@
 255.255.255.255 broadcasthost
 ::1             localhost
 
-## Shitty trackers
+## Shitload of crapfucks
 
 127.0.0.1       disqus.com
 127.0.0.1       link.services.disqus.com
@@ -33,6 +33,18 @@
 127.0.0.1       static.xx.fbcdn.net
 127.0.0.1       scontent.xx.fbcdn.net
 127.0.0.1       scontent-sjc2-1.xx.fbcdn.net
+
+127.0.0.1       www.facebook.com
+127.0.0.1       login.facebook.com
+127.0.0.1       www.login.facebook.com
+127.0.0.1       fbcdn.net
+127.0.0.1       www.fbcdn.net
+127.0.0.1       fbcdn.com
+127.0.0.1       www.fbcdn.com
+127.0.0.1       static.ak.fbcdn.net
+127.0.0.1       static.ak.connect.facebook.com
+127.0.0.1       www.connect.facebook.net
+127.0.0.1       apps.facebook.com
 
 127.0.0.1       googleadservices.com
 127.0.0.1       www.googleadservices.com
