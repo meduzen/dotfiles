@@ -137,7 +137,7 @@ module.exports = {
         left: '3px',
         color: 'orange',
         opacity: '.8',
-        fontSize: '9px'
+        fontSize: '9px',
       },
       focusOnMouseHover: false
     },
@@ -155,6 +155,11 @@ module.exports = {
       noBorder: true,
     },
 
+    // https://github.com/magus/hyper-transparent-dynamic
+    hyperTransparentDynamic: {
+      alpha: 0.7 // default 50%
+    },
+
     // https://github.com/kazushisan/hyperterm-horizon#configure
     horizonTheme: 'bright', // 'bright', 'normal'
 
@@ -166,8 +171,11 @@ module.exports = {
           { label: 'watch', command: 'npm run watch' },
           { label: 'prod', command: 'npm run prod' },
           { label: 'dev', command: 'npm run dev' },
+          { label: 'serve', command: 'npm run serve' },
           { label: 'browserslist', command: 'npx browserslist' },
           { label: '?', command: 'npm run' },
+          { label: '14', command: 'nvm use 14' },
+          { label: '10', command: 'nvm use 10' },
         ]
       },
       {
@@ -219,6 +227,9 @@ module.exports = {
           { label: '🔒', command: 'valet secure' },
           { label: '🔓', command: 'valet unsecure' },
           { label: 'list', command: 'valet' },
+          // { label: '7.3', command: 'valet use php@7.3' },
+          // { label: '7.4', command: 'valet use php@7.4' },
+          // { label: '8', command: 'valet use php@8.0' },
         ]
       },
       {
@@ -238,8 +249,9 @@ module.exports = {
           { label: 'status',  command: 'git status' },
           { label: 'log',  command: 'glog' }, // see my .bashrc
           { label: 'add .',  command: 'git add .' },
-          { label: 'pull',  command: 'git pull' },
+          { label: 'checkout',  command: 'git checkout ', prompt: true },
           { label: 'push',  command: 'git push' },
+          { label: 'pull',  command: 'git pull' },
           { label: 'clone ',  command: 'git clone ', prompt: true },
           { label: 'GUI',  command: 'gitup' },
         ]
@@ -290,16 +302,22 @@ module.exports = {
     // "hyperlayout", // try later
 
     /* dark themes */
-    "hyper-snazzy",
+    // "hyper-github-dark-dimmed"
+    "hyper-ayu-mirage",
+    // "hyper-electron-highlighter",
+    // "hyper-rose-pine",
+    // "hyper-snazzy",
     // "hyper-sweet",
     // "hyper-ayu",
-    // "hyper-ayu-mirage",
-    // "hyper-rose-pine",
-    // "hyper-electron-highlighter",
+    // "verminal",
 
     /* light themes */
-    // "hyper-ayu-light",
     // "hyper-hypest",
+    // "hyper-github-light"
+    // "hyper-ayu-light",
     // "hyperterm-horizon",
+
+    /* Alpha transparency and vibrancy; must be after themes. */
+    "hyper-transparent-dynamic",
   ]
-};
+}
