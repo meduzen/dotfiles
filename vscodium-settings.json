@@ -1,6 +1,5 @@
 {
     "workbench.colorTheme": "Ayu Mirage",
-    "editor.fontSize": 14,
     "terminal.integrated.fontSize": 124,
     "editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
     "editor.multiCursorModifier": "ctrlCmd",
@@ -26,7 +25,6 @@
     "editor.smoothScrolling": true,
     "editor.cursorBlinking": "smooth",
     "editor.find.addExtraSpaceOnTop": false,
-    "editor.minimap.enabled": false,
     "files.autoGuessEncoding": true,
     "files.hotExit": "onExitAndWindowClose",
     "files.trimFinalNewlines": true,
@@ -44,10 +42,8 @@
     "workbench.editor.enablePreview": false,
     "workbench.editor.pinnedTabSizing": "shrink",
     "workbench.editor.scrollToSwitchTabs": true,
-    "workbench.editor.tabCloseButton": "off",
     "workbench.settings.enableNaturalLanguageSearch": false,
     "workbench.settings.useSplitJSON": true,
-    "zenMode.hideStatusBar": false,
     "zenMode.restore": false,
     "screencastMode.fontSize": 100,
     "screencastMode.mouseIndicatorColor": "#f6c86d",
@@ -78,5 +74,38 @@
     "git.countBadge": "off",
     "git.enableStatusBarSync": false,
     "extensions.autoCheckUpdates": false,
-    "extensions.autoUpdate": false
+    "extensions.autoUpdate": false,
+    "redhat.telemetry.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.horizontalScrollbarSize": 6,
+    "emmet.includeLanguages": {
+        "vue-html": "html"
+    },
+    "editor.scrollbar.verticalScrollbarSize": 8,
+    "editor.fontSize": 14,
+    "nebulaOni.update.restoreConfiguration": {
+        "themeSettings": {
+            "background": "Grey",
+            "main": "Bumblebee",
+            "highlight": "Ultra Violet",
+            "focusBorder": "ON",
+            "fontStyle": "Italic",
+            "comments": "Dark Violet",
+            "favorite": "OFF"
+        },
+        "favoriteSettings": {
+            "background": "Glacial Blue",
+            "main": "Sakura",
+            "highlight": "Ultra Violet",
+            "focusBorder": "ON",
+            "fontStyle": "Italic",
+            "comments": "Dark Magenta",
+            "favorite": "Nebula Oni (Pegasus)"
+        }
+    },
+    "nebulaOni.applyChanges": false,
+    "nebulaOni.add.favorite": "OFF",
+    "importCost.smallPackageSize": 15,
+    "importCost.mediumPackageSize": 40,
+    "problems.showCurrentInStatus": true
 }
