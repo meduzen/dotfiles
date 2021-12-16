@@ -12,7 +12,6 @@ trim_trailing_whitespace = true
 
 # 2 space indentation
 [*.{js,css,scss,vue}]
-indent_style = space
 indent_size = 2
 
 [*.md]
