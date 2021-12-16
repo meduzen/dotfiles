@@ -34,12 +34,11 @@ brew 'tldr'
 brew 'youtube-dl'
 
 # Apps
+cask 'ballast'
 cask 'boop'
 cask 'brave-browser'
-cask 'ballast'
 cask 'craft'
 cask 'dash'
-cask 'day-o'
 cask 'dropbox'
 cask 'elmedia-player'
 cask 'figma'
