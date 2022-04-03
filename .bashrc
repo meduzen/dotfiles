@@ -39,12 +39,6 @@ function homestead() {
 	( cd ~/Homestead && vagrant $* )
 }
 
-# Vagrant
-alias vh="vagrant halt"
-alias vprov="vagrant provision"
-alias vs="vagrant status"
-alias vssh="vagrant ssh"
-alias vu="vagrant up"
 
 # Webpack
 alias ww='npm run watch'
