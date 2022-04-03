@@ -9,6 +9,9 @@ function weather() {
     eval "curl http://wttr.in/${city}"
 }
 
+# https://github.com/nvbn/thefuck/wiki/Shell-aliases
+eval "$(thefuck --alias)"
+
 # Hidden files
 function hidehiddenfiles() {
     defaults write com.apple.finder AppleShowAllFiles -bool NO
