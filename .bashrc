@@ -12,6 +12,18 @@ function weather() {
 # https://github.com/nvbn/thefuck/wiki/Shell-aliases
 eval "$(thefuck --alias)"
 
+# Network
+_ip() {
+    ifconfig | grep "inet " | grep -Fv 127.0.0.1 | awk '{print $2}'
+}
+alias ip="_ip"
+
+alias flushdns='dscacheutil -flushcache && sudo killall -HUP mDNSResponder'
+
+function sslexpire() {
+    echo | openssl s_client -servername $1 -connect $1:443 2>/dev/null | openssl x509 -noout -dates
+}
+
 # Hidden files
 function hidehiddenfiles() {
     defaults write com.apple.finder AppleShowAllFiles -bool NO
