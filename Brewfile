@@ -5,12 +5,14 @@ tap 'homebrew/bundle'
 
 # Binaries
 brew 'coreutils' # macOS ones are outdated
+brew 'duf'
 brew 'git'
 brew 'grep'
 brew 'gnupg'
 brew 'mackup'
 brew 'mas'
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
+brew 'thefuck'
 brew 'trash'
 brew 'tree'
 brew 'fzf'
