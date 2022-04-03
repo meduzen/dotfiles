@@ -272,11 +272,8 @@ module.exports = {
         ]
       },
       {
-        label: 'vim',
-        options: [
-          { label: 'quit', command: ':q!', esc: true },
-          { label: 'save & quit', command: ':x', esc: true },
-        ]
+        label: '🖕',
+        command: 'fuck'
       },
     ],
   },
