@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "Ayu Mirage",
     "terminal.integrated.fontSize": 124,
     "editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
     "editor.multiCursorModifier": "ctrlCmd",
@@ -20,7 +19,6 @@
     "editor.occurrencesHighlight": false,
     "editor.overviewRulerBorder": false,
     "editor.renderIndentGuides": false,
-    "editor.renderLineHighlight": "none",
     "editor.renderWhitespace": "trailing",
     "editor.smoothScrolling": true,
     "editor.cursorBlinking": "smooth",
@@ -32,13 +30,10 @@
     "workbench.list.horizontalScrolling": true,
     "workbench.list.keyboardNavigation": "filter",
     "workbench.list.smoothScrolling": true,
-    "workbench.iconTheme": "ayu",
-    "workbench.activityBar.visible": false,
     "workbench.preferredDarkColorTheme": "Ayu Mirage",
     "workbench.preferredLightColorTheme": "Ayu Light",
     "workbench.tree.indent": 10,
     "workbench.tree.renderIndentGuides": "none",
-    "breadcrumbs.enabled": false,
     "workbench.editor.enablePreview": false,
     "workbench.editor.pinnedTabSizing": "shrink",
     "workbench.editor.scrollToSwitchTabs": true,
@@ -52,7 +47,6 @@
     "window.autoDetectColorScheme": true,
     "window.titleSeparator": " • ",
     "explorer.confirmDragAndDrop": false,
-    "explorer.decorations.colors": false,
     "search.globalFindClipboard": true,
     "search.mode": "newEditor",
     "window.openFoldersInNewWindow": "on",
@@ -107,5 +101,18 @@
     "nebulaOni.add.favorite": "OFF",
     "importCost.smallPackageSize": 15,
     "importCost.mediumPackageSize": 40,
-    "problems.showCurrentInStatus": true
+    "problems.showCurrentInStatus": true,
+    "editor.renderLineHighlightOnlyWhenFocus": true,
+    "editor.renderLineHighlight": "all",
+    "workbench.colorTheme": "Ayu Light",
+    "workbench.activityBar.visible": false,
+    "workbench.iconTheme": "ayu",
+    "breadcrumbs.enabled": false,
+    "workbench.editor.autoLockGroups": {
+        "terminalEditor": false
+    },
+    "explorer.confirmDelete": false,
+    "explorer.decorations.colors": false,
+    "workbench.view.alwaysShowHeaderActions": true,
+    "filesize.displayInfoOnTheRightSideOfStatusBar": true
 }
