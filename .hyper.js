@@ -227,9 +227,9 @@ module.exports = {
           { label: '🔒', command: 'valet secure' },
           { label: '🔓', command: 'valet unsecure' },
           { label: 'list', command: 'valet' },
-          // { label: '7.3', command: 'valet use php@7.3' },
-          // { label: '7.4', command: 'valet use php@7.4' },
-          // { label: '8', command: 'valet use php@8.0' },
+          { label: '7.4', command: 'valet use php@7.4' },
+          { label: '8', command: 'valet use php@8.0' },
+          { label: '8.1', command: 'valet use php@8.1' },
         ]
       },
       {
