@@ -51,6 +51,10 @@ function homestead() {
 	( cd ~/Homestead && vagrant $* )
 }
 
+# Doc
+function mdn() {
+    open -a "Firefox" "https://mdn.io/$1"
+}
 
 # Webpack
 alias ww='npm run watch'
