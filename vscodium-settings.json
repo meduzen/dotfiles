@@ -11,14 +11,12 @@
     "editor.copyWithSyntaxHighlighting": false,
     "editor.dragAndDrop": false,
     "editor.foldingHighlight": false,
-    "editor.highlightActiveIndentGuide": false,
-    "editor.inlineHints.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
+    "editor.inlayHints.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
     "editor.lineHeight": 23,
     "editor.lineNumbers": "interval",
     "editor.matchBrackets": "near",
     "editor.occurrencesHighlight": false,
     "editor.overviewRulerBorder": false,
-    "editor.renderIndentGuides": false,
     "editor.renderWhitespace": "trailing",
     "editor.smoothScrolling": true,
     "editor.cursorBlinking": "smooth",
@@ -112,7 +110,16 @@
         "terminalEditor": false
     },
     "explorer.confirmDelete": false,
-    "explorer.decorations.colors": false,
     "workbench.view.alwaysShowHeaderActions": true,
-    "filesize.displayInfoOnTheRightSideOfStatusBar": true
+    "explorer.decorations.colors": false,
+    "filesize.displayInfoOnTheRightSideOfStatusBar": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.guides.indentation": false,
+    "editor.guides.highlightActiveIndentation": false,
+    "editor.bracketPairColorization.enabled": false
 }
