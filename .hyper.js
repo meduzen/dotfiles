@@ -168,12 +168,12 @@ module.exports = {
       {
         label: 'front',
         options: [
-          { label: 'watch', command: 'npm run watch' },
-          { label: 'prod', command: 'npm run prod' },
-          { label: 'dev', command: 'npm run dev' },
-          { label: 'serve', command: 'npm run serve' },
+          { label: 'watch', command: 'nr watch' },
+          { label: 'prod', command: 'nr prod' },
+          { label: 'dev', command: 'nr dev' },
+          { label: 'serve', command: 'nr serve' },
           { label: 'browserslist', command: 'npx browserslist' },
-          { label: '?', command: 'npm run' },
+          { label: 'run', command: 'nr' },
           { label: '14', command: 'nvm use 14' },
           { label: '10', command: 'nvm use 10' },
         ]
@@ -185,9 +185,9 @@ module.exports = {
           { label: '🔭', command: 'npm audit' },
           { label: '💉', command: 'npm audit fix' },
           { label: '🕸', command: 'npm outdated' },
-          { label: '🚛📦', command: 'npm install ', prompt: true },
-          { label: '☄️', command: 'npm install' }, // alternative emoji: 🌌
-          { label: 'update', command: 'npm update', prompt: true },
+          { label: '🚛📦', command: 'ni ', prompt: true }, // alternative emoji: 🌌
+          { label: '☄️', command: 'ni' }, // alternative emoji: 🌌
+          { label: 'update', command: 'nu ', prompt: true },
           { label: '🗑', command: 'rm -rf node_modules' },
           { label: '🗑🧹☄️', command: 'rm -rf node_modules && rm package-lock.json && npm cache clean --force && npm install' },
           { label: 'help', command: 'npm' },
