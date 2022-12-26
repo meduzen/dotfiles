@@ -121,5 +121,33 @@
     },
     "editor.guides.indentation": false,
     "editor.guides.highlightActiveIndentation": false,
-    "editor.bracketPairColorization.enabled": false
+    "editor.bracketPairColorization.enabled": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "todo-tree.general.statusBar": "total",
+    "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
+    "todo-tree.tree.showCountsInTree": true,
+    "todo-tree.tree.labelFormat": "${after}",
+    "todo-tree.tree.hideTreeWhenEmpty": true,
+    "todo-tree.general.tags": [
+        "todo"
+    ],
+    "todo-tree.regex.regexCaseSensitive": false,
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^[ \\t]*(@*|\\d+.))*\\s*($TAGS)",
+    "todo-tree.general.enableFileWatcher": true,
+    "todo-tree.filtering.excludeGlobs": [
+        "**/node_modules",
+        "**/package-lock.json"
+    ],
+    "[scss]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    }
 }
