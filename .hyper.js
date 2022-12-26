@@ -174,6 +174,7 @@ module.exports = {
           { label: 'serve', command: 'nr serve' },
           { label: 'browserslist', command: 'npx browserslist' },
           { label: 'run', command: 'nr' },
+          { label: '16', command: 'nvm use 16' },
           { label: '14', command: 'nvm use 14' },
           { label: '10', command: 'nvm use 10' },
         ]
