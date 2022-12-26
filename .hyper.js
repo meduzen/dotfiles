@@ -231,6 +231,7 @@ module.exports = {
           { label: '7.4', command: 'valet use php@7.4' },
           { label: '8', command: 'valet use php@8.0' },
           { label: '8.1', command: 'valet use php@8.1' },
+          { label: 'php -v', command: 'php -v' },
         ]
       },
       {
