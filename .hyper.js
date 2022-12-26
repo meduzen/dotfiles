@@ -302,7 +302,9 @@ module.exports = {
 
     /* dark themes */
     // "hyper-github-dark-dimmed"
-    "hyper-ayu-mirage",
+    // "hyper-ayu-mirage",
+    // "hyper-tokyo-night",
+    "hyper-tokyo-night-storm",
     // "hyper-electron-highlighter",
     // "hyper-rose-pine",
     // "hyper-snazzy",
@@ -312,8 +314,9 @@ module.exports = {
 
     /* light themes */
     // "hyper-hypest",
-    // "hyper-github-light"
+    // "hyper-github-light",
     // "hyper-ayu-light",
+    // "hyper-paper",
     // "hyperterm-horizon",
 
     /* Alpha transparency and vibrancy; must be after themes. */
