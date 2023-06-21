@@ -24,13 +24,12 @@ pecl install imagick
 curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
 
-# 
-
 # Install global Composer packages
 /usr/local/bin/composer global require laravel/installer laravel/valet
 
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install
+sudo valet trust
 
 # Where the coolness happens
 mkdir $HOME/Code
