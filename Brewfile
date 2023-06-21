@@ -14,6 +14,8 @@ brew 'mackup'
 brew 'mas'
 brew 'openfortivpn'
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
+brew 'pnpm'
+brew 'terraform'
 brew 'thefuck'
 brew 'trash'
 brew 'tree'
