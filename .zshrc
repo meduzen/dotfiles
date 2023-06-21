@@ -50,5 +50,14 @@ export PATH=$PATH:"$ZSH_CUSTOM/plugins/navi"
 # Composer
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 
-export PATH="/usr/local/sbin:$PATH"
-export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
+# Homebrew
+export PATH=/opt/homebrew/sbin:$PATH
+export PATH="/opt/homebrew/opt/mysql@8.0/bin:$PATH"
+export PATH="/opt/homebrew/opt/openssl@1.1/bin:$PATH"
+
+# pnpm
+export PNPM_HOME="$HOME/Library/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /opt/homebrew/bin/terraform terraform
