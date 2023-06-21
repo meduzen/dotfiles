@@ -320,6 +320,6 @@ module.exports = {
     // "hyperterm-horizon",
 
     /* Alpha transparency and vibrancy; must be after themes. */
-    "hyper-transparent-dynamic",
+    // "hyper-transparent-dynamic",
   ]
 }
