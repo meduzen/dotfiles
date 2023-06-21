@@ -25,14 +25,10 @@ curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
 
 # Install global Composer packages
-# /usr/local/bin/composer global require laravel/installer laravel/spark-installer laravel/valet
+/usr/local/bin/composer global require laravel/installer laravel/valet
 
 # Install Laravel Valet
-# $HOME/.composer/vendor/bin/valet install
-
-# Install Node Version Manager
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
-nvm install node # node is an alias for the latest version
+$HOME/.composer/vendor/bin/valet install
 
 # Where the coolness happens
 mkdir $HOME/Code
