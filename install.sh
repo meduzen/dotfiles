@@ -8,10 +8,10 @@ if test ! $(which brew); then
 fi
 
 # Update recipes
-brew update
+# brew update
 
 # Install dependencies with bundle (see Brewfile)
-brew tap homebrew/bundle
+# brew tap homebrew/bundle
 brew bundle
 
 # Make ZSH the default shell environment
