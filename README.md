@@ -10,7 +10,7 @@ Deeply inspired by [Dries Vints dotfiles repository](https://github.com/driesvin
 4. Copy your public and private SSH keys to `~/.ssh` and make sure their permissions are set to `600`.
 5. Add your SSH private keys to the authentication agent by running `ssh-add ~/.ssh/private_key_name`.
 6. Clone this repository to `~/.dotfiles`.
-7. Append `/usr/local/bin/zsh` to the end of your `/etc/shells` file.
+7. Append `/usr/local/bin/zsh` to the end of your `/etc/shells` file. ⚠️ **seems not needed, to be confirmed**
 8. Enter the `.dotfiles` directory and run `chmod +x install.sh` (check if still necessary after #583a9a5).
 9. Run `./install.sh` to start the installation.
 10. Restore preferences by running `mackup restore` (make sure your [storage provider](https://github.com/lra/mackup/blob/master/doc/README.md#storage) is connected).
