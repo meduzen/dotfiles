@@ -1,6 +1,6 @@
 # Tap tap tap
-tap 'caskroom/cask'
-tap 'caskroom/versions'
+tap 'homebrew/cask'
+tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 
 # Binaries
