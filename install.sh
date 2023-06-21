@@ -24,6 +24,8 @@ pecl install imagick
 curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
 
+# 
+
 # Install global Composer packages
 /usr/local/bin/composer global require laravel/installer laravel/valet
 
@@ -41,6 +43,9 @@ npm install --global pure-prompt # Minimal ZSH prompt https://github.com/sindres
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
+
+# Install ZSH Terraform autocomplete
+terraform -install-autocomplete
 
 # Symlink the Mackup config file to the home directory
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
