@@ -5,8 +5,8 @@
 Deeply inspired by [Dries Vints dotfiles repository](https://github.com/driesvints/dotfiles).
 
 1. Update macOS to the latest version (_System Preferences_ / _Software Update_).
-2. Install Xcode from the App Store, open it and accept the license agreement.
-3. Install macOS Command Line Tools by running `xcode-select --install`.
+2. Install Xcode from the App Store and open it.
+3. Install macOS Command Line Tools by running `xcode-select --install` in Terminal.
 4. Copy your public and private SSH keys to `~/.ssh` and make sure their permissions are set to `600`.
 5. Add your SSH private keys to the authentication agent by running `ssh-add ~/.ssh/private_key_name`.
 6. Clone this repository to `~/.dotfiles`.
