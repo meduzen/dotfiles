@@ -7,14 +7,15 @@ Deeply inspired by [Dries Vints dotfiles repository](https://github.com/driesvin
 1. Update macOS to the latest version (_System Preferences_ / _Software Update_).
 2. Install Xcode from the App Store and open it.
 3. Install macOS Command Line Tools by running `xcode-select --install` in Terminal.
-4. Copy your public and private SSH keys to `~/.ssh` and make sure their permissions are set to `600`.
-5. Add your SSH private keys to the authentication agent by running `ssh-add ~/.ssh/private_key_name`.
-6. Clone this repository to `~/.dotfiles`.
-7. Append `/usr/local/bin/zsh` to the end of your `/etc/shells` file. ⚠️ **seems not needed, to be confirmed**
-8. Enter the `.dotfiles` directory and run `chmod +x install.sh` (check if still necessary after #583a9a5).
-9. Run `./install.sh` to start the installation.
-10. Restore preferences by running `mackup restore` (make sure your [storage provider](https://github.com/lra/mackup/blob/master/doc/README.md#storage) is connected).
-11. Restart your computer to finalize the process.
+4. Install Rosetta by running `sudo softwareupdate --install-rosetta`.
+5. Copy your public and private SSH keys to `~/.ssh` and make sure their permissions are set to `600`.
+6. Add your SSH private keys to the authentication agent by running `ssh-add ~/.ssh/private_key_name`.
+7. Clone this repository to `~/.dotfiles`.
+8. Append `/usr/local/bin/zsh` to the end of your `/etc/shells` file. ⚠️ **seems not needed, to be confirmed**
+9. Enter the `.dotfiles` directory and run `chmod +x install.sh` (check if still necessary after #583a9a5).
+10. Run `./install.sh` to start the installation.
+11. Restore preferences by running `mackup restore` (make sure your [storage provider](https://github.com/lra/mackup/blob/master/doc/README.md#storage) is connected).
+12. Restart your computer to finalize the process.
 
 ## Post setup
 
