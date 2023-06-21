@@ -6,6 +6,7 @@ tap 'homebrew/bundle'
 # Binaries
 brew 'coreutils' # macOS ones are outdated
 brew 'duf'
+brew 'fnm'
 brew 'git'
 brew 'grep'
 brew 'gnupg'
