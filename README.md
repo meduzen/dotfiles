@@ -1,4 +1,6 @@
-# Dotfiles (in progress)
+# Dotfiles
+
+These instructions partly automates the setup of a device using macOS with an Apple Silicon ship.
 
 ## Setup your Mac
 
@@ -20,11 +22,13 @@ Deeply inspired by [Dries Vints dotfiles repository](https://github.com/driesvin
 ## Post setup
 
 1. Go to the App Store to retrieve the apps that are not in your Brewfile.
-2. And now, some app by app notes…
+2. And now, some app by app notes… 👇
 
 ### Apple Simulator
 
-Run the Simulator, menu _Hardware_, _Device_, _Manage devices…_ and install the additional components.
+In Xcode:
+- go to menu _Window_, _Devices and Simulators_, _Simulators_ to add additional iOS versions down to iOS 14.0.1.
+- go to menu _Xcode_, _Settings_, _Platforms_ to add additional devices.
 
 ### MySQL
 
@@ -34,7 +38,7 @@ The stable Sequel Pro version (currently 1.1.2) doesn’t support MySQL 8. So th
 
 ### Git
 
-- In `.gitconfig`, set name and email.
+- In `.gitconfig`, set a name and an email address.
 
 ### Mooom
 
