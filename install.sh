@@ -34,8 +34,8 @@ sudo mv composer.phar /usr/local/bin/composer
 $HOME/.composer/vendor/bin/valet install
 sudo valet trust
 
-# Where the coolness happens
-mkdir $HOME/Code
+# Create code directory and bind it to valet
+mkdir $HOME/Code && cd $HOME/Code && valet park
 
 # Install Oh-My-Zsh and fancy bits
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
