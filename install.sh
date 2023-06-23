@@ -17,6 +17,9 @@ brew bundle
 # Make ZSH the default shell environment
 # chsh -s $(which zsh)
 
+# Start MySQL service
+brew services start mysql
+
 # Install PHP extensions with PECL
 pecl install imagick
 

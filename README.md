@@ -32,9 +32,9 @@ In Xcode:
 
 ### MySQL
 
-The stable Sequel Pro version (currently 1.1.2) doesn’t support MySQL 8. So there are two options:
-- _(tested and working)_ installing [Sequel Pro build 97c1b85783](https://sequelpro.com/builds/Sequel-Pro-Build-97c1b85783.zip) ([all test builds](https://sequelpro.com/test-builds));
-- _(tested and working)_ downgrading MySQL 8 to version 5.7 by following [@at0dd guide](https://medium.com/@at0dd/install-mysql-5-7-on-mac-os-mojave-cd07ec936034).
+- (optional) Security: set a root password by running [`sudo mysql_secure_installation`](https://dev.mysql.com/doc/refman/8.0/en/mysql-secure-installation.html).
+- Data migration: by running `mysql -u root -p < alldb.sql`, you can import all local databases you have exported with `mysqldump -u root -p --all-databases > alldb.sql`.
+- Migration from Sequel Pro to Sequel Ace: follow the [dedicated guide](https://sequel-ace.com/get-started/migrating-from-sequel-pro.html) to migrate favorites and passwords. If you need access to remote servers, grant Sequel Ace the access to your `~/.ssh/config`, `~/.ssh/known_hosts` and the needed SSH keys.
 
 ### Git
 
