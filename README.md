@@ -33,8 +33,9 @@ In Xcode:
 ### MySQL
 
 - (optional) Security: set a root password by running [`sudo mysql_secure_installation`](https://dev.mysql.com/doc/refman/8.0/en/mysql-secure-installation.html).
-- Data migration: by running `mysql -u root -p < alldb.sql`, you can import all local databases you have exported with `mysqldump -u root -p --all-databases > alldb.sql`.
-- Migration from Sequel Pro to Sequel Ace: follow the [dedicated guide](https://sequel-ace.com/get-started/migrating-from-sequel-pro.html) to migrate favorites and passwords. If you need access to remote servers, grant Sequel Ace the access to your `~/.ssh/config`, `~/.ssh/known_hosts` and the needed SSH keys.
+- Databases migration: by running `mysql -u root -p < alldb.sql`, you can import all local databases you have exported with `mysqldump -u root -p --all-databases > alldb.sql`.
+- Favorites and passwords migration or migration from Sequel Pro to Sequel Ace: follow the [dedicated guide](https://sequel-ace.com/get-started/migrating-from-sequel-pro.html).
+- If you need access to remote servers, grant Sequel Ace the access to your `~/.ssh/config`, `~/.ssh/known_hosts` and the needed SSH keys.
 
 ### Git
 
