@@ -14,9 +14,6 @@ fi
 # brew tap homebrew/bundle
 brew bundle
 
-# Make ZSH the default shell environment
-# chsh -s $(which zsh)
-
 # Start MySQL service
 brew services start mysql
 
@@ -42,9 +39,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 git clone https://github.com/zsh-users/zsh-syntax-highlighting $ZSH/plugins/zsh-syntax-highlighting
 npm install --global pure-prompt # Minimal ZSH prompt https://github.com/sindresorhus/pure
 
-# Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
+# 1. Remove .zshrc from $HOME (if it exists)
+# 2. Symlink the .zshrc file from the .dotfiles
+# 3. Symlink ZSH custom folder (with plugins) to Dropbox
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
+ln -sf $HOME/Dropbox/Mackup/.oh-my-zsh/custom $HOME/.oh-my-zsh/custom
 
 # Install ZSH Terraform autocomplete
 terraform -install-autocomplete
