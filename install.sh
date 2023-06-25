@@ -46,6 +46,9 @@ rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 ln -sf $HOME/Dropbox/Mackup/.oh-my-zsh/custom $HOME/.oh-my-zsh/custom
 
+# Install ni, an enhancement to your Node package manager https://github.com/antfu/ni
+npm i -g @antfu/ni
+
 # Link .npmrc to Dropbox
 ln -sf ~/Dropbox/Mackup/.npmrc ~/.npmrc 
 
