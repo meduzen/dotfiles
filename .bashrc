@@ -12,6 +12,9 @@ function weather() {
 # https://github.com/nvbn/thefuck/wiki/Shell-aliases
 eval "$(thefuck --alias)"
 
+# https://github.com/Schniz/fnm#zsh
+eval "$(fnm env --use-on-cd)"
+
 # Network
 _ip() {
     ifconfig | grep "inet " | grep -Fv 127.0.0.1 | awk '{print $2}'
