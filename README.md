@@ -47,4 +47,4 @@ In Xcode:
 
 ### Sublime Text
 
-- Install [Package Control](https://packagecontrol.io/installation). Then, [_to be completed_].
+- In Sublime Text, go to _Tools_, _Install Package Control_. Then, [_to be completed_].
