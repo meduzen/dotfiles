@@ -1,3 +1,7 @@
+[core]
+	excludesfile = /Users/m/.gitignore_global
+	fileMode = false
+	autocrlf = input
 [user]
     name = Mehdi M.
     email = fake@email.tld
@@ -11,3 +15,14 @@
 
 [url "https://gitlab.com/"]
     insteadOf = bb:
+
+[commit]
+	gpgsign = true
+[help]
+	autocorrect = 1
+[push]
+	autoSetupRemote = true
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true

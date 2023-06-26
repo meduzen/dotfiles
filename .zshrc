@@ -35,12 +35,6 @@ unsetopt beep # no bell on error
 autoload -U promptinit; promptinit
 prompt pure
 
-# Set NVM_DIR if it isn't already defined
-[[ -z "$NVM_DIR" ]] && export NVM_DIR="$HOME/.nvm"
-
-# Load nvm if it exists
-[[ -f "$NVM_DIR/nvm.sh" ]] && source "$NVM_DIR/nvm.sh"
-
 # Load bashrc
 . ~/.bashrc
 
@@ -50,5 +44,14 @@ export PATH=$PATH:"$ZSH_CUSTOM/plugins/navi"
 # Composer
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 
-export PATH="/usr/local/sbin:$PATH"
-export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
+# Homebrew
+export PATH=/opt/homebrew/sbin:$PATH
+export PATH="/opt/homebrew/opt/mysql@8.0/bin:$PATH"
+export PATH="/opt/homebrew/opt/openssl@1.1/bin:$PATH"
+
+# pnpm
+export PNPM_HOME="$HOME/Library/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /opt/homebrew/bin/terraform terraform

@@ -1,9 +1,13 @@
-[[ -f ~/.bashrc ]] && . ~/.bashrc
+# Load .bashrc if it exists
+test -f ~/.bashrc && source ~/.bashrc
 
-# NVM
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# Default Editor
+export EDITOR='subl'
+export GIT_EDITOR='subl'
 
-# Composer
-export PATH="$HOME/.composer/vendor/bin:$PATH"
+# Set architecture flags
+export ARCHFLAGS="-arch arm64"
+
+# Ensure user-installed binaries take precedence
+export PATH=/usr/local/bin:$PATH
+# export PATH=$PATH:~/PUT_YOUR_USERNAME_HERE/.bin

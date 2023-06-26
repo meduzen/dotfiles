@@ -78,7 +78,7 @@ module.exports = {
     // make sure to use a full path if the binary name doesn't work
     // (e.g `C:\\Windows\\System32\\bash.exe` instead of just `bash.exe`)
     // if you're using powershell, make sure to remove the `--login` below
-    shell: '',
+    shell: '/opt/homebrew/bin/zsh',
 
     // for setting shell arguments (i.e. for using interactive shellArgs: ['-i'])
     // by default ['--login'] will be used
@@ -320,6 +320,6 @@ module.exports = {
     // "hyperterm-horizon",
 
     /* Alpha transparency and vibrancy; must be after themes. */
-    "hyper-transparent-dynamic",
+    // "hyper-transparent-dynamic",
   ]
 }

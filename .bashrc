@@ -12,6 +12,9 @@ function weather() {
 # https://github.com/nvbn/thefuck/wiki/Shell-aliases
 eval "$(thefuck --alias)"
 
+# https://github.com/Schniz/fnm#zsh
+eval "$(fnm env --use-on-cd)"
+
 # Network
 _ip() {
     ifconfig | grep "inet " | grep -Fv 127.0.0.1 | awk '{print $2}'
@@ -45,33 +48,33 @@ function sslexpire() {
 # Git
 alias glog="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
 
-# Laravel Homestead
-alias homesteadfile='open -a "Sublime Text" ~/.homestead/Homestead.yaml'
-function homestead() {
-	( cd ~/Homestead && vagrant $* )
-}
+# Laravel ecosystem
+alias a="php artisan"
 
 # Doc
 function mdn() {
     open -a "Firefox" "https://mdn.io/$1"
 }
 
-# Webpack
-alias ww='npm run watch'
+# Softwares & tools
+alias st='open -a "Sublime Text"' # `st .` open current folder
+alias sql='open -a "Sequel Pro"'
 alias wd='npm run dev'
-alias wp='npm run prod'
-
-# Text editors
-alias st='open -a "Sublime Text"' # `st .` opens current folder in Sublime Text
-
-# Doc
-function mdn() {
-    open -a "Brave Browser" "https://mdn.io/$1"
-}
+alias wb='npm run build'
+alias wp='npm run preview'
+alias jslint="./node_modules/.bin/prettier --write 'resources/js/**/*.js'"
 
 # youtube-dl
-alias yt='cd ~/Downloads/yt && youtube-dl --all-subs --write-auto-sub'
+alias yt='cd ~/Downloads/yt && youtube-dl --write-auto-sub'
 alias ytmp3='cd ~/Downloads/yt && youtube-dl -f bestaudio --extract-audio --audio-format mp3'
+
+# Some paths
+alias www="cd ~/Code"
+alias sshssh="st ~/.ssh"
+alias gpggpg="st ~/.gnupg"
+
+# Remote SSH
+# alias ssh-insertsomeservername='ssh username@XX.XX.XX.XX'
 
 # Open this file with Sublime Text
 alias aliases='open -a "Sublime Text" ~/.bashrc'
