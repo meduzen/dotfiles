@@ -14,6 +14,7 @@ brew 'grep'
 brew 'mackup'
 brew 'mas'
 brew 'openfortivpn'
+brew 'pinentry-mac'
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'terraform'
 brew 'thefuck'
