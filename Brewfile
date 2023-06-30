@@ -28,6 +28,7 @@ brew 'zsh-completions'
 brew 'mysql'
 brew 'node'
 brew 'php'
+brew 'pickle'
 brew 'pnpm'
 brew 'redis'
 
