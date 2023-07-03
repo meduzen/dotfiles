@@ -38,6 +38,7 @@ brew 'guetzli'
 brew 'webp'
 
 # Various
+brew 'lychee'
 brew 'tldr'
 brew 'youtube-dl'
 
