@@ -287,7 +287,6 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    "hypercwd",
     "hyperminimal",
     "hyperterm-close-on-left",
     "hyperterm-paste",
