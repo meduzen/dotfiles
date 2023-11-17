@@ -23,15 +23,20 @@
 [url "https://gitlab.com/"]
 	insteadOf = bb:
 
+## Signature
+
 [commit]
 	gpgsign = true
+[gpg]
+	program = /opt/homebrew/bin/gpg
+
+## Conveniance
+
 [help]
-	autocorrect = 1
+	autocorrect = 40 # https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_help_autocorrect
 [push]
 	autoSetupRemote = true
 [init]
 	defaultBranch = main
 [pull]
 	rebase = true
-[gpg]
-	program = /opt/homebrew/bin/gpg
