@@ -119,6 +119,7 @@ cask 'vivaldi'
 cask 'vscodium'
 cask 'wwdc'
 cask 'xld'
+cask 'zed'
 cask 'zeplin'
 
 # App Store apps
