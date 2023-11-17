@@ -3,18 +3,25 @@
 	fileMode = false
 	autocrlf = input
 [user]
-    name = Mehdi M.
-    email = fake@email.tld
-    username = meduzen
+	name = Mehdi M.
+	email = fake@email.tld
+	username = meduzen
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+
+## URL aliases
 
 [url "https://github.com/"]
-    insteadOf = gh:
+	insteadOf = gh:
 
 [url "https://gist.github.com/"]
-    insteadOf = gist:
+	insteadOf = gist:
 
 [url "https://gitlab.com/"]
-    insteadOf = bb:
+	insteadOf = bb:
 
 [commit]
 	gpgsign = true
@@ -26,3 +33,5 @@
 	defaultBranch = main
 [pull]
 	rebase = true
+[gpg]
+	program = /opt/homebrew/bin/gpg
