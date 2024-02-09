@@ -1,3 +1,4 @@
+// -- hyper-stylesheet-hash:4baadcf751de7ee933eeb2d598e2e7aa --
 // Future versions of Hyper may add additional config options,
 
 // which will not automatically be merged into this file.
@@ -287,7 +288,6 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    "hypercwd",
     "hyperminimal",
     "hyperterm-close-on-left",
     "hyperterm-paste",
@@ -296,6 +296,7 @@ module.exports = {
     "hyper-custom-touchbar",
     "hyper-opacity",
     "hyper-pane",
+    "hyper-statusline",
     "hyper-stylesheet",
     "hyper-vsplit-fix",
     // "hyperlayout", // try later

@@ -3,23 +3,37 @@
 	fileMode = false
 	autocrlf = input
 [user]
-    name = Mehdi M.
-    email = fake@email.tld
-    username = meduzen
+	name = Mehdi M.
+	email = fake@email.tld
+	username = meduzen
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+
+## URL aliases
 
 [url "https://github.com/"]
-    insteadOf = gh:
+	insteadOf = gh:
 
 [url "https://gist.github.com/"]
-    insteadOf = gist:
+	insteadOf = gist:
 
 [url "https://gitlab.com/"]
-    insteadOf = bb:
+	insteadOf = bb:
+
+## Signature
 
 [commit]
 	gpgsign = true
+[gpg]
+	program = /opt/homebrew/bin/gpg
+
+## Conveniance
+
 [help]
-	autocorrect = 1
+	autocorrect = 40 # https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_help_autocorrect
 [push]
 	autoSetupRemote = true
 [init]

@@ -1,0 +1,36 @@
+/* #window */
+/* CSS for the window goes here */
+/*.footer_footer { opacity: 0.3; }*/
+.footer_footer {
+    background-color: hsl(0 100% 100% / 0%);
+    border-top: 1px solid hsl(0 0% 0% / 5%);
+    opacity: .5;
+}
+
+.footer_footer .footer_group {
+    color: #000;
+}
+
+.footer_footer .item_branch::before,
+.footer_footer .item_cwd::before,
+.footer_footer .item_dirty::before {
+    background-color: currentColor;
+    opacity: .3;
+}
+
+.footer_footer .item_dirty { color: currentColor; }
+
+@media (prefers-color-scheme: dark) {
+    .footer_footer {
+        background-color: hsl(0 0% 0% / 30%);
+    }
+
+    .footer_footer .footer_group {
+        color: #fff;
+    }
+}
+
+.footer_footer:hover { opacity: .8; }
+
+/* #terminal */
+/* CSS for the terminal goes here */

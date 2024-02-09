@@ -29,6 +29,7 @@ brew 'zsh-completions'
 brew 'mysql'
 brew 'node'
 brew 'php'
+brew 'pickle'
 brew 'pnpm'
 brew 'redis'
 
@@ -38,6 +39,7 @@ brew 'guetzli'
 brew 'webp'
 
 # Various
+brew 'lychee'
 brew 'tldr'
 brew 'youtube-dl'
 
@@ -118,6 +120,7 @@ cask 'vivaldi'
 cask 'vscodium'
 cask 'wwdc'
 cask 'xld'
+cask 'zed'
 cask 'zeplin'
 
 # App Store apps

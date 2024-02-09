@@ -17,8 +17,9 @@ brew bundle
 # Start MySQL service
 brew services start mysql
 
-# Install PHP extensions with PECL
+# Install PHP extensions with PECL or Pickle
 pecl install imagick
+pickle install redis
 
 # Install Composer
 curl -sS https://getcomposer.org/installer | php
