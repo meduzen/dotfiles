@@ -1,5 +1,4 @@
 {
-    "terminal.integrated.fontSize": 124,
     "editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.wordWrap": "on",
@@ -25,13 +24,11 @@
     "files.hotExit": "onExitAndWindowClose",
     "files.trimFinalNewlines": true,
     "workbench.enableExperiments": false,
-    "workbench.list.horizontalScrolling": true,
     "workbench.list.keyboardNavigation": "filter",
     "workbench.list.smoothScrolling": true,
     "workbench.preferredDarkColorTheme": "Ayu Mirage",
     "workbench.preferredLightColorTheme": "Ayu Light",
-    "workbench.tree.indent": 10,
-    "workbench.tree.renderIndentGuides": "none",
+    "workbench.tree.indent": 14,
     "workbench.editor.enablePreview": false,
     "workbench.editor.pinnedTabSizing": "shrink",
     "workbench.editor.scrollToSwitchTabs": true,
@@ -103,8 +100,6 @@
     "editor.renderLineHighlightOnlyWhenFocus": true,
     "editor.renderLineHighlight": "all",
     "workbench.colorTheme": "Ayu Light",
-    "workbench.activityBar.visible": false,
-    "workbench.iconTheme": "ayu",
     "breadcrumbs.enabled": false,
     "workbench.editor.autoLockGroups": {
         "terminalEditor": false
@@ -146,6 +141,41 @@
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
     },
+    "git.ignoreMissingGitWarning": true,
+    "workbench.colorCustomizations": {
+        "[Bearded Theme Coffee Cream]": {
+            "editor.hoverHighlightBackground": "#e3dcd9",
+            "editor.lineHighlightBackground": "#e3dcd9",
+            "editor.lineHighlightBorder": "#e3dcd9",
+            "editorGroup.border": "#e3dcd9",
+            "editorGroupHeader.border": "#e3dcd9",
+            "gitDecoration.modifiedResourceForeground": "#4f68a7",
+            "sideBar.border": "#e3dcd9",
+            "statusBar.border": "#e3dcd9",
+            "tab.activeBorderTop": "#bbaea9",
+            "tab.activeForeground": "#706865",
+            "tab.border": "#e3dcd9",
+            "titleBar.border": "#e3dcd9",
+            "titleBar.inactiveBackground": "#e3dcd9",
+            "titleBar.inactiveForeground": "#bbaea9"
+        }
+    },
+    "markdown.preview.markEditorSelection": false,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "svelte.enable-ts-plugin": true,
+    "window.title": "${activeEditorShort}${separator}${rootName}${separator}",
+    "[ini]": {},
+    "files.associations": {
+        "*.toml": "ini"
+    },
+    "workbench.list.defaultFindMode": "filter",
+    "workbench.list.horizontalScrolling": true,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.activityBar.location": "hidden",
+    "window.commandCenter": false,
+    "workbench.iconTheme": "ayu",
     "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
     "todo-tree.general.statusBar": "total",
     "todo-tree.highlights.enabled": false,
