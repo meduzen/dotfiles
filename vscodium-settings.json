@@ -128,11 +128,7 @@
     "[css]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "todo-tree.general.statusBar": "total",
-    "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
-    "todo-tree.tree.showCountsInTree": true,
     "todo-tree.tree.labelFormat": "${after}",
-    "todo-tree.tree.hideTreeWhenEmpty": true,
     "todo-tree.general.tags": [
         "todo"
     ],
@@ -149,5 +145,12 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
-    }
+    },
+    "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
+    "todo-tree.general.statusBar": "total",
+    "todo-tree.highlights.enabled": false,
+    "todo-tree.tree.hideTreeWhenEmpty": true,
+    "todo-tree.tree.showCurrentScanMode": false,
+    "todo-tree.tree.buttons.groupByTag": false,
+    "todo-tree.tree.buttons.export": true,
 }
