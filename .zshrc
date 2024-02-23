@@ -9,11 +9,12 @@ export ZSH=~/.oh-my-zsh
 plugins=(
     git
     zsh-syntax-highlighting
-    fzf # required by navi
-    navi
+    zsh-autosuggestions
+    fzf # required by zoxide
 )
 
 source $ZSH/oh-my-zsh.sh
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Language environment for non-English macOS
 export LANG=en_US.UTF-8
@@ -38,9 +39,6 @@ prompt pure
 # Load bashrc
 . ~/.bashrc
 
-# Navi
-export PATH=$PATH:"$ZSH_CUSTOM/plugins/navi"
-
 # Composer
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 
@@ -55,3 +53,5 @@ export PATH="$PNPM_HOME:$PATH"
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /opt/homebrew/bin/terraform terraform
+
+eval "$(zoxide init zsh --cmd cd)"
