@@ -13,7 +13,6 @@ brew 'gnupg'
 brew 'grep'
 brew 'mackup'
 brew 'mas'
-brew 'navi'
 brew 'openfortivpn'
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'terraform'
