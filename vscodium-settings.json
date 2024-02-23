@@ -1,153 +1,186 @@
 {
-    "terminal.integrated.fontSize": 124,
-    "editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.wordWrap": "on",
-    "files.exclude": {
-        "node_modules/": true
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[ini]": {},
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "blade.format.enable": true,
+  "breadcrumbs.enabled": false,
+  "css.lint.hexColorLength": "ignore",
+  "debug.showInStatusBar": "never",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.accessibilityPageSize": 1,
+  "editor.accessibilitySupport": "off",
+  "editor.bracketPairColorization.enabled": false,
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.cursorBlinking": "smooth",
+  "editor.dragAndDrop": false,
+  "editor.find.addExtraSpaceOnTop": false,
+  "editor.foldingHighlight": false,
+  "editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.guides.highlightActiveIndentation": false,
+  "editor.guides.indentation": false,
+  "editor.inlayHints.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
+  "editor.lineHeight": 23,
+  "editor.lineNumbers": "interval",
+  "editor.matchBrackets": "near",
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.occurrencesHighlight": false,
+  "editor.overviewRulerBorder": false,
+  "editor.renderLineHighlight": "all",
+  "editor.renderLineHighlightOnlyWhenFocus": true,
+  "editor.renderWhitespace": "trailing",
+  "editor.scrollbar.horizontalScrollbarSize": 6,
+  "editor.scrollbar.verticalScrollbarSize": 8,
+  "editor.smoothScrolling": true,
+  "editor.wordWrap": "on",
+  "emmet.includeLanguages": {
+    "vue-html": "html"
+  },
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.decorations.colors": false,
+  "extensions.autoCheckUpdates": false,
+  "extensions.autoUpdate": false,
+  "extensions.webWorker": true,
+  "files.associations": {
+    "*.toml": "ini"
+  },
+  "files.autoGuessEncoding": true,
+  "files.exclude": {
+    "node_modules/": true
+  },
+  "files.hotExit": "onExitAndWindowClose",
+  "files.trimFinalNewlines": true,
+  "filesize.displayInfoOnTheRightSideOfStatusBar": true,
+  "git.countBadge": "off",
+  "git.enableStatusBarSync": false,
+  "git.ignoreMissingGitWarning": true,
+  "importCost.mediumPackageSize": 40,
+  "importCost.smallPackageSize": 15,
+  "markdown.preview.markEditorSelection": false,
+  "nebulaOni.add.favorite": "OFF",
+  "nebulaOni.applyChanges": false,
+  "nebulaOni.update.restoreConfiguration": {
+    "favoriteSettings": {
+      "background": "Glacial Blue",
+      "comments": "Dark Magenta",
+      "favorite": "Nebula Oni (Pegasus)",
+      "focusBorder": "ON",
+      "fontStyle": "Italic",
+      "highlight": "Ultra Violet",
+      "main": "Sakura"
     },
-    "editor.accessibilityPageSize": 1,
-    "editor.accessibilitySupport": "off",
-    "editor.copyWithSyntaxHighlighting": false,
-    "editor.dragAndDrop": false,
-    "editor.foldingHighlight": false,
-    "editor.inlayHints.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
-    "editor.lineHeight": 23,
-    "editor.lineNumbers": "interval",
-    "editor.matchBrackets": "near",
-    "editor.occurrencesHighlight": false,
-    "editor.overviewRulerBorder": false,
-    "editor.renderWhitespace": "trailing",
-    "editor.smoothScrolling": true,
-    "editor.cursorBlinking": "smooth",
-    "editor.find.addExtraSpaceOnTop": false,
-    "files.autoGuessEncoding": true,
-    "files.hotExit": "onExitAndWindowClose",
-    "files.trimFinalNewlines": true,
-    "workbench.enableExperiments": false,
-    "workbench.list.horizontalScrolling": true,
-    "workbench.list.keyboardNavigation": "filter",
-    "workbench.list.smoothScrolling": true,
-    "workbench.preferredDarkColorTheme": "Ayu Mirage",
-    "workbench.preferredLightColorTheme": "Ayu Light",
-    "workbench.tree.indent": 10,
-    "workbench.tree.renderIndentGuides": "none",
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.pinnedTabSizing": "shrink",
-    "workbench.editor.scrollToSwitchTabs": true,
-    "workbench.settings.enableNaturalLanguageSearch": false,
-    "workbench.settings.useSplitJSON": true,
-    "zenMode.restore": false,
-    "screencastMode.fontSize": 100,
-    "screencastMode.mouseIndicatorColor": "#f6c86d",
-    "screencastMode.verticalOffset": 10,
-    "screencastMode.onlyKeyboardShortcuts": true,
-    "window.autoDetectColorScheme": true,
-    "window.titleSeparator": " • ",
-    "explorer.confirmDragAndDrop": false,
-    "search.globalFindClipboard": true,
-    "search.mode": "newEditor",
-    "window.openFoldersInNewWindow": "on",
-    "search.searchEditor.reusePriorSearchConfiguration": true,
-    "debug.showInStatusBar": "never",
-    "scm.autoReveal": false,
-    "scm.countBadge": "off",
-    "scm.diffDecorationsGutterAction": "none",
-    "scm.diffDecorationsGutterWidth": 2,
-    "scm.diffDecorationsGutterVisibility": "hover",
-    "scm.repositories.visible": 1,
-    "extensions.webWorker": true,
-    "terminal.explorerKind": "external",
-    "terminal.external.osxExec": "Hyper.app",
-    "remote.autoForwardPorts": false,
-    "update.mode": "none",
-    "blade.format.enable": true,
-    "css.lint.hexColorLength": "ignore",
-    "git.countBadge": "off",
-    "git.enableStatusBarSync": false,
-    "extensions.autoCheckUpdates": false,
-    "extensions.autoUpdate": false,
-    "redhat.telemetry.enabled": false,
-    "editor.minimap.enabled": false,
-    "editor.scrollbar.horizontalScrollbarSize": 6,
-    "emmet.includeLanguages": {
-        "vue-html": "html"
-    },
-    "editor.scrollbar.verticalScrollbarSize": 8,
-    "editor.fontSize": 14,
-    "nebulaOni.update.restoreConfiguration": {
-        "themeSettings": {
-            "background": "Grey",
-            "main": "Bumblebee",
-            "highlight": "Ultra Violet",
-            "focusBorder": "ON",
-            "fontStyle": "Italic",
-            "comments": "Dark Violet",
-            "favorite": "OFF"
-        },
-        "favoriteSettings": {
-            "background": "Glacial Blue",
-            "main": "Sakura",
-            "highlight": "Ultra Violet",
-            "focusBorder": "ON",
-            "fontStyle": "Italic",
-            "comments": "Dark Magenta",
-            "favorite": "Nebula Oni (Pegasus)"
-        }
-    },
-    "nebulaOni.applyChanges": false,
-    "nebulaOni.add.favorite": "OFF",
-    "importCost.smallPackageSize": 15,
-    "importCost.mediumPackageSize": 40,
-    "problems.showCurrentInStatus": true,
-    "editor.renderLineHighlightOnlyWhenFocus": true,
-    "editor.renderLineHighlight": "all",
-    "workbench.colorTheme": "Ayu Light",
-    "workbench.activityBar.visible": false,
-    "workbench.iconTheme": "ayu",
-    "breadcrumbs.enabled": false,
-    "workbench.editor.autoLockGroups": {
-        "terminalEditor": false
-    },
-    "explorer.confirmDelete": false,
-    "workbench.view.alwaysShowHeaderActions": true,
-    "explorer.decorations.colors": false,
-    "filesize.displayInfoOnTheRightSideOfStatusBar": true,
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.guides.indentation": false,
-    "editor.guides.highlightActiveIndentation": false,
-    "editor.bracketPairColorization.enabled": false,
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[css]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "todo-tree.general.statusBar": "total",
-    "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
-    "todo-tree.tree.showCountsInTree": true,
-    "todo-tree.tree.labelFormat": "${after}",
-    "todo-tree.tree.hideTreeWhenEmpty": true,
-    "todo-tree.general.tags": [
-        "todo"
-    ],
-    "todo-tree.regex.regexCaseSensitive": false,
-    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^[ \\t]*(@*|\\d+.))*\\s*($TAGS)",
-    "todo-tree.general.enableFileWatcher": true,
-    "todo-tree.filtering.excludeGlobs": [
-        "**/node_modules",
-        "**/package-lock.json"
-    ],
-    "[scss]": {
-        "editor.defaultFormatter": "vscode.css-language-features"
-    },
-    "diffEditor.ignoreTrimWhitespace": false,
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
+    "themeSettings": {
+      "background": "Grey",
+      "comments": "Dark Violet",
+      "favorite": "OFF",
+      "focusBorder": "ON",
+      "fontStyle": "Italic",
+      "highlight": "Ultra Violet",
+      "main": "Bumblebee"
     }
+  },
+  "problems.showCurrentInStatus": true,
+  "redhat.telemetry.enabled": false,
+  "remote.autoForwardPorts": false,
+  "scm.autoReveal": false,
+  "scm.countBadge": "off",
+  "scm.diffDecorationsGutterAction": "none",
+  "scm.diffDecorationsGutterVisibility": "hover",
+  "scm.diffDecorationsGutterWidth": 2,
+  "scm.repositories.visible": 1,
+  "screencastMode.fontSize": 100,
+  "screencastMode.mouseIndicatorColor": "#f6c86d",
+  "screencastMode.onlyKeyboardShortcuts": true,
+  "screencastMode.verticalOffset": 10,
+  "search.globalFindClipboard": true,
+  "search.mode": "newEditor",
+  "search.searchEditor.reusePriorSearchConfiguration": true,
+  "svelte.enable-ts-plugin": true,
+  "terminal.explorerKind": "external",
+  "terminal.external.osxExec": "Hyper.app",
+  "todo-tree.filtering.excludeGlobs": [
+    "**/node_modules",
+    "**/package-lock.json"
+  ],
+  "todo-tree.general.enableFileWatcher": true,
+  "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
+  "todo-tree.general.statusBar": "total",
+  "todo-tree.general.tags": [
+    "todo"
+  ],
+  "todo-tree.highlights.enabled": false,
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^[ \\t]*(@*|\\d+.))*\\s*($TAGS)",
+  "todo-tree.regex.regexCaseSensitive": false,
+  "todo-tree.tree.buttons.export": true,
+  "todo-tree.tree.buttons.groupByTag": false,
+  "todo-tree.tree.hideTreeWhenEmpty": true,
+  "todo-tree.tree.labelFormat": "${after}",
+  "todo-tree.tree.showCurrentScanMode": false,
+  "update.mode": "none",
+  "window.autoDetectColorScheme": true,
+  "window.commandCenter": false,
+  "window.openFoldersInNewWindow": "on",
+  "window.title": "${activeEditorShort}${separator}${rootName}${separator}",
+  "window.titleSeparator": " • ",
+  "workbench.activityBar.location": "hidden",
+  "workbench.colorCustomizations": {
+    "[Bearded Theme Coffee Cream]": {
+      "editor.hoverHighlightBackground": "#e3dcd9",
+      "editor.lineHighlightBackground": "#e3dcd9",
+      "editor.lineHighlightBorder": "#e3dcd9",
+      "editorGroup.border": "#e3dcd9",
+      "editorGroupHeader.border": "#e3dcd9",
+      "gitDecoration.modifiedResourceForeground": "#4f68a7",
+      "sideBar.border": "#e3dcd9",
+      "statusBar.border": "#e3dcd9",
+      "tab.activeBorderTop": "#bbaea9",
+      "tab.activeForeground": "#706865",
+      "tab.border": "#e3dcd9",
+      "titleBar.border": "#e3dcd9",
+      "titleBar.inactiveBackground": "#e3dcd9",
+      "titleBar.inactiveForeground": "#bbaea9"
+    }
+  },
+  "workbench.colorTheme": "Ayu Light",
+  "workbench.editor.autoLockGroups": {
+    "terminalEditor": false
+  },
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.pinnedTabSizing": "shrink",
+  "workbench.editor.scrollToSwitchTabs": true,
+  "workbench.enableExperiments": false,
+  "workbench.iconTheme": "ayu",
+  "workbench.list.defaultFindMode": "filter",
+  "workbench.list.horizontalScrolling": true,
+  "workbench.list.keyboardNavigation": "filter",
+  "workbench.list.smoothScrolling": true,
+  "workbench.preferredDarkColorTheme": "Ayu Mirage",
+  "workbench.preferredLightColorTheme": "Ayu Light",
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "workbench.settings.useSplitJSON": true,
+  "workbench.tree.indent": 14,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.view.alwaysShowHeaderActions": true,
+  "zenMode.restore": false
 }
