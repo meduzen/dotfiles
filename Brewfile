@@ -25,9 +25,9 @@ brew 'zsh'
 brew 'zsh-completions'
 
 # Development
-brew 'mysql'
+# brew 'mysql' # should be covered by herd @todo test on fresh machine
 brew 'node'
-brew 'php'
+# brew 'php' # should be covered by herd @todo test on fresh machine
 brew 'pickle'
 brew 'pnpm'
 brew 'redis'
@@ -67,6 +67,7 @@ cask 'google-chrome'
 cask 'grandperspective'
 cask 'handbrake'
 cask 'hazeover'
+cask 'herd'
 cask 'hush'
 cask 'hyper'
 cask 'idagio'
