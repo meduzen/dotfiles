@@ -9,7 +9,7 @@ export ZSH=~/.oh-my-zsh
 plugins=(
     git
     zsh-syntax-highlighting
-    fzf # required by navi
+    fzf # required by zoxide
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -51,3 +51,5 @@ export PATH="$PNPM_HOME:$PATH"
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /opt/homebrew/bin/terraform terraform
+
+eval "$(zoxide init zsh --cmd cd)"

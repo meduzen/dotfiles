@@ -20,6 +20,7 @@ brew 'thefuck'
 brew 'trash'
 brew 'tree'
 brew 'xsv'
+brew 'zoxide'
 brew 'zsh'
 brew 'zsh-completions'
 
