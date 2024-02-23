@@ -14,26 +14,33 @@ fi
 # brew tap homebrew/bundle
 brew bundle
 
+### START should be covered by herd @todo test on fresh machine
+
 # Start MySQL service
-brew services start mysql
+# brew services start mysql
 
 # Install PHP extensions with PECL or Pickle
-pecl install imagick
-pickle install redis
+# pecl install imagick
+# pickle install redis
 
 # Install Composer
-curl -sS https://getcomposer.org/installer | php
-sudo mv composer.phar /usr/local/bin/composer
+# curl -sS https://getcomposer.org/installer | php
+# sudo mv composer.phar /usr/local/bin/composer
 
 # Install global Composer packages
-/usr/local/bin/composer global require laravel/installer laravel/valet
+# /usr/local/bin/composer global require laravel/installer laravel/valet
 
 # Install Laravel Valet
-$HOME/.composer/vendor/bin/valet install
-sudo valet trust
+# $HOME/.composer/vendor/bin/valet install
+# sudo valet trust
 
 # Create code directory and bind it to valet
-mkdir $HOME/Code && cd $HOME/Code && valet park
+# mkdir $HOME/Code && cd $HOME/Code && valet park
+
+### START should be covered by herd @todo test on fresh machine
+
+# Create code directory
+mkdir $HOME/Code
 
 # Install Oh-My-Zsh and fancy bits
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
