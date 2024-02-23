@@ -19,6 +19,10 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # Language environment for non-English macOS
 export LANG=en_US.UTF-8
 
+# Disable auto-update in `brew`
+# https://sebastiandedeyne.com/how-not-to-update-every-package-in-existence-break-your-local-environment-and-spend-the-afternoon-dealing-with-things-you-did-not-want-to-deal-with-when-installing-a-package-with-brew
+export HOMEBREW_NO_AUTO_UPDATE=1
+
 # Configured by `zsh-newuser-install`
 HISTFILE=~/.histfile
 HISTSIZE=1000
