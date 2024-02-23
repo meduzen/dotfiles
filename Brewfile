@@ -22,6 +22,7 @@ brew 'tree'
 brew 'xsv'
 brew 'zoxide'
 brew 'zsh'
+brew 'zsh-autosuggestions'
 brew 'zsh-completions'
 
 # Development

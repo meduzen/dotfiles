@@ -9,10 +9,12 @@ export ZSH=~/.oh-my-zsh
 plugins=(
     git
     zsh-syntax-highlighting
+    zsh-autosuggestions
     fzf # required by zoxide
 )
 
 source $ZSH/oh-my-zsh.sh
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Language environment for non-English macOS
 export LANG=en_US.UTF-8
