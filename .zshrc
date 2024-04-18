@@ -55,6 +55,10 @@ export PATH="/opt/homebrew/opt/openssl@1.1/bin:$PATH"
 export PNPM_HOME="$HOME/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 
+# GPG
+export GPG_TTY=$(tty)
+gpgconf --launch gpg-agent
+
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /opt/homebrew/bin/terraform terraform
 
