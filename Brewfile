@@ -66,6 +66,7 @@ cask 'freac'
 cask 'gitup'
 cask 'gog-galaxy'
 cask 'google-chrome'
+cask 'gpg-suite' # once installed, activate use-agent in `~/.gnupg/gpg.confg`
 cask 'grandperspective'
 cask 'handbrake'
 cask 'hazeover'
